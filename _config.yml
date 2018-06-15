@@ -22,6 +22,7 @@ url: "http://jagmagh.com" # the base hostname & protocol for your site, e.g. htt
 twitter_username: NA
 github_username:  jagmagh
 timezone: Asia/Kuala_Lumpur
+remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 
 # Build settings
 markdown: kramdown
