@@ -25,7 +25,7 @@ timezone: Asia/Kuala_Lumpur
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-clean-blog
+theme: jekyll-theme-dinky
 plugins:
   - jekyll-feed
 
