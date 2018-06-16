@@ -26,7 +26,7 @@ remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-dinky
+theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
 
