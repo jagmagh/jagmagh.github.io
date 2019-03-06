@@ -1,10 +1,10 @@
 # Site settings
 title: Jagmag H.
 email: jagmagh@gmail.com
-url: https://example.github.io
+url: www.jagmagh.com
 description: ""
 keywords: "your keywords, separated by commas"
-skills: "Developer - Software Architect - General Busybody"
+skills: "Developer - Software Architect - General Busy-body"
 meta_author: H Jagmag
 
 # Google webmaster tools
@@ -33,26 +33,20 @@ color:
 # Footer settings
 footer:
   copyright: Jagmag 
-  location: Singapore
-  social: Anti-Social
-  credits: To many people to name
+  location: Location
+  social: Social
+  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://stackoverflow.com/users/372871/jagmag
+  - title: linkedin
+    url: https://www.linkedin.com/in/jagmagh/
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Singapore
+  - line: Malaysia, Singapore, Thailand, Indonesia
 
 # Credits content
 credits: 'I would like to thank the Academy.....'
