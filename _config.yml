@@ -4,7 +4,7 @@ email: jagmagh@gmail.com
 url: www.jagmagh.com
 description: ""
 keywords: "your keywords, separated by commas"
-skills: "Developer - Software Architect - General Busy-body"
+skills: "Sustainable Software Architecture - Business Process Optimization - Targeted Problem Solving"
 meta_author: H Jagmag
 
 # Google webmaster tools
@@ -46,10 +46,10 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Malaysia, Singapore, Thailand, Indonesia
+  - line: Malaysia, Singapore, Thailand, Indonesia, India
 
 # Credits content
-credits: 'I would like to thank the Academy.....'
+credits: 'Github Pages, Jekyll, @jeromelachaud for the freelancer-theme'
 
 # Build settings
 markdown: kramdown
