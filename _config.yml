@@ -49,7 +49,7 @@ address:
   - line: Malaysia, Singapore, Thailand, Indonesia, India
 
 # Credits content
-credits: 'Github Pages, Jekyll, @jeromelachaud for the freelancer-theme'
+credits: ""
 
 # Build settings
 markdown: kramdown
