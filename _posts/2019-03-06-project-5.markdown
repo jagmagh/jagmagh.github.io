@@ -3,7 +3,7 @@ title: Communication
 layout: default
 modal-id: 5
 date: 2019-03-06
-img: 025-design-1.png
+img: 027-talk.png
 alt: image-alt
 duration : 20 years
 technologies: 
