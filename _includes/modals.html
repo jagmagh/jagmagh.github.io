@@ -14,26 +14,32 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered col-sm-3" alt="{{ post.alt }}">
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}
+                            {% if post.description2 %}
+                                <p>{{ post.description2 }}</p>
+                            {% endif %}
+                            {% if post.description3 %}
+                                <p>{{ post.description3 }}</p>
+                            {% endif %}
                             <ul class="list-inline item-details">
-                                {% if post.client %}
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                {% if post.technologies %}
+                                    <li>Technologies / Products:
+                                        <strong>{{ post.technologies }}
                                         </strong>
                                     </li>
                                 {% endif %}
-                                {% if post.project-date %}
-                                    <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                {% if post.duration %}
+                                    <li>Practicing:
+                                        <strong>{{ post.duration }}
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.category %}
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                    <li>Category:
+                                        <strong>{{ post.category }}
                                         </strong>
                                     </li>
                                 {% endif %}
