@@ -1,13 +1,13 @@
 ---
-title: Web Development
+title: Solution Architecture
 layout: default
 modal-id: 1
 date: 2019-03-06
-img: 027-world-wide-web.png
+img: 049-blueprint.png
 alt: image-alt
-duration : 20 years
-technologies: asp.net, c#, angular, typescript
-category: Web Applications
+duration : 10 years
+technologies: Smart Clients, SPAs, Mobile, Services, API design, Databases (Relational/Document) 
+category: Solution Architecture
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 description2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
