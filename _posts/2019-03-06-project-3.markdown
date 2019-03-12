@@ -1,9 +1,9 @@
 ---
-title: Development Processes
+title: Targeted Problem Solving
 layout: default
 modal-id: 3
 date: 2019-03-06
-img: 032-code.png
+img: 012-idea.png
 alt: image-alt
 duration : 20 years
 technologies: Waterfall, Agile, Continuous Integration, Continuous Delivery, DevOps, TDD, Lean

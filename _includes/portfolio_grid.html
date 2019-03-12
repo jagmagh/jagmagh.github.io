@@ -11,6 +11,7 @@
             <div class="row">
                 {% assign projects = site.posts | reverse %}
                 {% for post in projects %}
+                    <div class="col-sm-1">&nbsp;</div>    
                     <div class="col-sm-3 portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
@@ -21,6 +22,7 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                         </a>
                     </div>
+                       
                 {% endfor %}
             </div>
         </div>

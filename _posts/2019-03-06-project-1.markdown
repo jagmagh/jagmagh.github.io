@@ -1,9 +1,9 @@
 ---
-title: Solution Architecture
+title: Sustainable Software Strategy
 layout: default
 modal-id: 1
 date: 2019-03-06
-img: 049-blueprint.png
+img: 033-strategy.png
 alt: image-alt
 duration : 10 years
 technologies: Smart Clients, SPAs, Mobile, Services, API design, Databases (Relational/Document) 

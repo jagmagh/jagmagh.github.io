@@ -3,7 +3,7 @@ title: Business Process Automation
 layout: default
 modal-id: 2
 date: 2019-03-06
-img: 025-design-1.png
+img: 005-workflow.png
 alt: image-alt
 duration : 10 years
 technologies: Smart Clients, SPAs, Mobile, Services, API design, Databases (Relational/Document) 
