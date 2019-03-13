@@ -1,9 +1,9 @@
 ---
-title: Business Process Automation
+title: Enabling Software Automation
 layout: default
 modal-id: 2
 date: 2019-03-06
-img: 005-workflow.png
+img: 025-design-1.png
 alt: image-alt
 duration : 10 years
 technologies: Smart Clients, SPAs, Mobile, Services, API design, Databases (Relational/Document) 
