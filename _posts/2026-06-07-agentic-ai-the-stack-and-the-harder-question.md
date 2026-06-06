@@ -1,8 +1,8 @@
- ---
-  layout: post
-  title: "Agentic AI: Model Autonomy, and the Harder Question"
-  date: 2026-06-07
-  ---
+---
+layout: post
+title: "Agentic AI: Model Autonomy, and the Harder Question"
+date: 2026-06-07
+---
 
 # Agentic AI: Model Autonomy, and the Harder Question
 
