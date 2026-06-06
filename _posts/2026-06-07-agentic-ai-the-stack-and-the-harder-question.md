@@ -75,7 +75,7 @@ That last point resolves the most common headline confusion. Copilot Studio gets
 
 ## Part 2 — What the Runtime / Operating Platform layer is actually *for*
 
-It is tempting to treat isolation, memory, identity brokering, policy, and observability as enterprise checkboxes. They are not. Each exists because a specific class of real failure happens without it. And of the five, four do the same kind of job and one doesn't: **four are *risk controls* that bound what an agent can do — because an LLM agent is a non-deterministic actor that takes real-world actions on behalf of real users — while the fifth, memory, is an *enabling capability* that happens to be provided by the same runtime.**
+The Runtime/Operating Platform layer delivers five distinct capabilities: isolation, identity brokering, policy enforcement, observability, and managed memory. Most teams treat these as a checklist — line items on an enterprise architecture review or a procurement requirement. That framing misses the point. Each exists because a specific class of real failure happens without it. And of the five, four do the same kind of job while one is fundamentally different: four are *risk controls* that bound what an agent can do — because an LLM agent is a non-deterministic actor that takes real-world actions on behalf of real users — while the fifth, memory, is an *enabling capability* that happens to be provided by the same runtime.
 
 **The four risk controls — bounding the agent's autonomy:**
 
@@ -89,7 +89,7 @@ It is tempting to treat isolation, memory, identity brokering, policy, and obser
 
 **The one that's a capability, not a guardrail:**
 
-- **Managed memory** is externalized state. The model is stateless; anything the agent should "remember" past its context window has to live outside it. Without it you get amnesia, context-window overflow, and no personalization. Memory is the odd one out on this list — it's an *enabling capability* that makes a stateful, multi-session agent work, not a control that protects you. It's grouped with the runtime services because the platform provides it alongside them, but it belongs in a different category: the other four bound what the agent can *do*, while memory expands what it can *be*. (And memory is itself something you govern — it can leak across sessions, retain sensitive data, or be poisoned — so it sits partly *under* the other four, not beside them.)
+<ul><li><p><strong>Managed memory</strong> is externalized state. The model is stateless; anything the agent should "remember" past its context window has to live outside it. Without it you get amnesia, context-window overflow, and no personalization. Memory is the odd one out on this list — it's an <em>enabling capability</em> that makes a stateful, multi-session agent work, not a control that protects you. It's grouped with the runtime services because the platform provides it alongside them, but it belongs in a different category: the other four bound what the agent can <em>do</em>, while memory expands what it can <em>be</em>. (And memory is itself something you govern — it can leak across sessions, retain sensitive data, or be poisoned — so it sits partly <em>under</em> the other four, not beside them.)</p></li></ul>
 
 ### The responsibility most teams miss
 

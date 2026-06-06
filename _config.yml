@@ -33,7 +33,7 @@ color:
 # Footer settings
 footer:
   copyright: Jagmag
-  location: Locations
+  location: Locations Worked
   social: Social
   credits: Credits
 
@@ -46,7 +46,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Malaysia, Singapore, Thailand, Indonesia, India
+  - line: Singapore, Thailand, Indonesia, America, India
 
 # Credits content
 credits: ""
