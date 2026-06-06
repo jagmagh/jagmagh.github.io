@@ -4,13 +4,15 @@ title: "Agentic AI: Model Autonomy, and the Harder Question"
 date: 2026-06-07
 ---
 
-# Agentic AI: Model Autonomy, and the Harder Question
-
 *A field guide for architects deciding how — and whether — to put a language model in the driver's seat.*
+
+<img src="/img/2026-06-07-image1.jpg" alt="Agentic AI" style="float: right; margin: 0 0 20px 30px; max-width: 45%;">
 
 There is a lot of noise right now about agents, agent frameworks, and "agentic AI platforms." Most of it conflates layers that are actually distinct, and almost none of it asks the question that matters most: not *how* to build an agent, but *when you should let one act on its own*.
 
 This piece does two things. First, it untangles the stack — what AgentCore, Strands, the Claude Agent SDK, Bedrock, Copilot Studio, and the rest actually are, and which ones are even comparable to each other. Second, and more importantly, it makes an argument about deployment that the landscape conversation usually skips: the right question for an agentic system is not "is the model good enough," it is "what is the cost and reversibility of the actions I am letting it take." A decade of pre-LLM history already answered the underlying question, and we are at risk of un-learning it.
+
+<div style="clear: both;"></div>
 
 ---
 
@@ -97,7 +99,7 @@ Everything above is about *how* to build and govern an agent. The more important
 - **Output breadth:** a number in [0,1] (a fraud score) versus unbounded output (natural language, or — in agentic use — *actions*).
 - **Autonomy:** the model *informs* a decision a human owns, versus the model *acts* and *drives a loop* itself.
 
-![The two axes of AI risk: a 2×2 of autonomy (informs vs. acts) against output breadth (narrow vs. broad). Bounded predictive models like XGBoost sit in the safe informs-narrow corner; agentic LLMs sit in the acts-broad danger corner alongside RL agents and recommender loops.](../img/ai-risk-2x2-quadrant.png)
+![The two axes of AI risk: a 2×2 of autonomy (informs vs. acts) against output breadth (narrow vs. broad). Bounded predictive models like XGBoost sit in the safe informs-narrow corner; agentic LLMs sit in the acts-broad danger corner alongside RL agents and recommender loops.](/img/2026-06-07-image3.png)
 
 |  | Narrow output | Broad / unbounded output |
 |---|---|---|
