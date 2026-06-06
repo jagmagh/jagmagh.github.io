@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body id="page-top">
+    {% include nav.html %}
+    <section style="padding-top: 100px; padding-bottom: 60px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>{{ page.title }}</h2>
+                    <p class="text-muted"><small>{{ page.date | date: "%B %-d, %Y" }}</small></p>
+                    <hr class="star-primary">
+                    {{ content }}
+                    <hr>
+                    <a href="/blog">&larr; Back to Blog</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
+</html>

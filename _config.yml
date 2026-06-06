@@ -1,10 +1,10 @@
 # Site settings
-title: Jagmag H.
+title: Jagmag H K
 email: jagmagh@gmail.com
 url: www.jagmagh.com
-description: "Personal website for Jagmag"
-keywords: "Jagmag, Technology, Strategy, Software, Automation, Problem Solving, Architecture, Digital Transformation"
-skills: "Formulating Technology Strategy - Enabling Digital Transformation - Solving Complex Problems"
+description: "Software Architect and Enterprise Architect with 24+ years of experience building and modernizing enterprise technology platforms across SE Asia."
+keywords: "Jagmag, Enterprise Architecture, Solution Architecture, Digital Transformation, AWS, Azure, TOGAF, Cloud, Singapore"
+skills: "Enterprise Architecture · Digital Transformation · Cloud-Native Platforms"
 meta_author: Jagmag
 
 # Google webmaster tools
@@ -25,15 +25,15 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 6495ED #66B2FF #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 2E86AB
+  primary-rgb: "46,134,171"
+  secondary: 2c3e50
+  secondary-dark: 233140
 
 # Footer settings
 footer:
-  copyright: Jagmag 
-  location: Location
+  copyright: Jagmag
+  location: Singapore
   social: Social
   credits: Credits
 
@@ -50,6 +50,11 @@ address:
 
 # Credits content
 credits: ""
+
+# Collections
+collections:
+  portfolio:
+    output: false
 
 # Build settings
 markdown: kramdown
