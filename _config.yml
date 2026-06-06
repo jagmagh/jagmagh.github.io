@@ -60,3 +60,10 @@ collections:
 markdown: kramdown
 permalink: pretty
 future: true
+exclude:
+  - STATE.md
+  - DECISIONS.md
+  - OPEN-QUESTIONS.md
+  - Gemfile
+  - Gemfile.lock
+  - freelancer-theme-jekyll.gemspec
