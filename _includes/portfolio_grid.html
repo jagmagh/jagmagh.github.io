@@ -11,17 +11,17 @@
             <div class="row">
                 {% assign projects = site.portfolio %}
                 {% for post in projects %}
-                    <div class="col-sm-3 portfolio-item">
+                    <div class="col-sm-4 portfolio-item text-center">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                         </a>
+                        <p style="color: #fff; font-family: Montserrat, sans-serif; font-weight: 700; text-transform: uppercase; font-size: 14px; margin-top: 12px; letter-spacing: 1px;">{{ post.title }}</p>
                     </div>
-                    <div class="col-sm-1">&nbsp;</div>
                 {% endfor %}
             </div>
         </div>
