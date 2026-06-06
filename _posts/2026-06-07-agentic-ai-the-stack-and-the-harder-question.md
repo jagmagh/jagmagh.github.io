@@ -16,7 +16,7 @@ excerpt: "Everyone's asking whether AI agents are good enough to put in producti
 <li><strong>Drafting text, proposing options?</strong> Cheap, reversible. Let it run.</li>
 <li><strong>Moving money, deleting records, changing access?</strong> Expensive, irreversible. Cage it, or keep a human between the decision and the consequence.</li>
 </ul>
-<p class="dragon">You don't wield a dragon. You ride it — on reins.</p>
+<p class="dragon">You don't let a dragon run amok. You ride it — on reins.</p>
 </div>
 
 *A field guide for architects deciding how — and whether — to put a language model in the driver's seat.*
