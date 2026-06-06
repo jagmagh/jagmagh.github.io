@@ -2,17 +2,30 @@
 layout: post
 title: "Agentic AI: Model Autonomy, and the Harder Question"
 date: 2026-06-07
+excerpt: "Everyone's asking whether AI agents are good enough to put in production. Wrong question. The gating variable was never capability. It was reversibility — and LLMs are making it dangerously easy to forget."
 ---
+
+<div class="post-intro">
+<p>Everyone's asking whether AI agents are "good enough" to put in production.</p>
+<p><strong>Wrong question.</strong></p>
+<p>We spent a decade learning this lesson the hard way with a different kind of AI. Reinforcement-learning agents were trading, pricing, routing, and recommending autonomously years before LLMs existed. And in the domains where a wrong action was catastrophic and irreversible — healthcare, industrial control — we deliberately kept them out, no matter how capable they got.</p>
+<p>The gating variable was never capability. It was reversibility.</p>
+<p>That lesson still holds, and LLMs are making it dangerously easy to forget. A few lines of SDK code now put a model in the driver's seat of a real business process — and the fluent, confident way it explains itself makes us trust it in ways the capability doesn't warrant. An articulate rationalisation looks like judgment. It isn't.</p>
+<p>So the question for any agentic system isn't "how smart is the model." It's: what does an action cost if it goes wrong, and can I undo it?</p>
+<ul>
+<li><strong>Drafting text, proposing options?</strong> Cheap, reversible. Let it run.</li>
+<li><strong>Moving money, deleting records, changing access?</strong> Expensive, irreversible. Cage it, or keep a human between the decision and the consequence.</li>
+</ul>
+<p class="dragon">You don't wield a dragon. You ride it — on reins.</p>
+</div>
 
 *A field guide for architects deciding how — and whether — to put a language model in the driver's seat.*
 
-<img src="/img/2026-06-07-image1.jpg" alt="Agentic AI" style="float: right; margin: 0 0 20px 30px; max-width: 45%;">
+<img src="/img/2026-06-07-image1.jpg" alt="Agentic AI" style="display: block; width: 100%; margin: 20px 0 30px;">
 
 There is a lot of noise right now about agents, agent frameworks, and "agentic AI platforms." Most of it conflates layers that are actually distinct, and almost none of it asks the question that matters most: not *how* to build an agent, but *when you should let one act on its own*.
 
 This piece does two things. First, it untangles the stack — what AgentCore, Strands, the Claude Agent SDK, Bedrock, Copilot Studio, and the rest actually are, and which ones are even comparable to each other. Second, and more importantly, it makes an argument about deployment that the landscape conversation usually skips: the right question for an agentic system is not "is the model good enough," it is "what is the cost and reversibility of the actions I am letting it take." A decade of pre-LLM history already answered the underlying question, and we are at risk of un-learning it.
-
-<div style="clear: both;"></div>
 
 ---
 
@@ -99,7 +112,7 @@ Everything above is about *how* to build and govern an agent. The more important
 - **Output breadth:** a number in [0,1] (a fraud score) versus unbounded output (natural language, or — in agentic use — *actions*).
 - **Autonomy:** the model *informs* a decision a human owns, versus the model *acts* and *drives a loop* itself.
 
-![The two axes of AI risk: a 2×2 of autonomy (informs vs. acts) against output breadth (narrow vs. broad). Bounded predictive models like XGBoost sit in the safe informs-narrow corner; agentic LLMs sit in the acts-broad danger corner alongside RL agents and recommender loops.](/img/2026-06-07-image3.png)
+<img src="/img/2026-06-07-image3.png" alt="The two axes of AI risk: a 2×2 of autonomy (informs vs. acts) against output breadth (narrow vs. broad). Bounded predictive models like XGBoost sit in the safe informs-narrow corner; agentic LLMs sit in the acts-broad danger corner alongside RL agents and recommender loops." style="display: block; max-width: 100%; height: auto; margin: 20px 0;">
 
 |  | Narrow output | Broad / unbounded output |
 |---|---|---|

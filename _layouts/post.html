@@ -1,6 +1,48 @@
 <!DOCTYPE html>
 <html>
     {% include head.html %}
+    <style>
+        .post-content table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 24px;
+            font-size: 15px;
+        }
+        .post-content table th,
+        .post-content table td {
+            border: 1px solid #d0d0d0;
+            padding: 8px 12px;
+            vertical-align: top;
+        }
+        .post-content table th {
+            background-color: #f5f7f9;
+            font-weight: 700;
+        }
+        .post-content table tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+        .post-intro {
+            border-left: 4px solid #2E86AB;
+            background: #f0f7fb;
+            padding: 20px 28px;
+            margin: 28px 0 36px;
+            border-radius: 0 4px 4px 0;
+        }
+        .post-intro p {
+            font-size: 17px;
+            margin-bottom: 12px;
+            text-align: left;
+        }
+        .post-intro p:last-child {
+            margin-bottom: 0;
+        }
+        .post-intro .dragon {
+            font-style: italic;
+            font-weight: 700;
+            font-size: 18px;
+            color: #2E86AB;
+        }
+    </style>
     <body id="page-top">
     {% include nav.html %}
     <section style="padding-top: 130px; padding-bottom: 60px;">
@@ -10,7 +52,7 @@
                     <h2>{{ page.title }}</h2>
                     <p class="text-muted"><small>{{ page.date | date: "%B %-d, %Y" }}</small></p>
                     <hr class="star-primary">
-                    {{ content }}
+                    <div class="post-content">{{ content }}</div>
                     <hr>
                     <a href="/blog">&larr; Back to Blog</a>
                 </div>
