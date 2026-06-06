@@ -57,10 +57,10 @@ That last point resolves the most common headline confusion. Copilot Studio gets
 | **Cross-cloud governance** | *(framework-agnostic)* | **Agent Management Platform** *(over other runtimes)* | Its own console | *(sits above inference)* | model-agnostic |
 | **Open-source** | LangChain / LangGraph · CrewAI · AutoGen | *self-host; or LangSmith / LangGraph Platform* | Any IDE | BYO | any |
 
-> *Notes on the table:*
+> *Notes:*
 >
 > - *Names — especially Microsoft's — and model/region availability shift frequently. Verify the specific cells you'll build on against primary docs.*
-> - *Scope: this table covers **general-purpose stacks** you'd choose between to build an arbitrary application. Platform-bound vertical agents (Salesforce Agentforce, ServiceNow, Workday, etc.) are out of scope — they build agents inside their own product's data gravity, not stacks you'd pick as a general build target. Admit one and you'd have to admit all of them.*
+> - *Scope: this table covers **general-purpose stacks** you'd choose between to build an arbitrary application. Platform-bound vertical agents (Salesforce Agentforce, ServiceNow, Workday, etc.) are out of scope — they build agents inside their own product's data gravity, not stacks you'd pick as a general build target.*
 > - *The layers aren't always as clean as the columns suggest. Most open-source frameworks are self-hosted, but the LangChain ecosystem is the exception — LangChain/LangGraph author the agent, while LangSmith (observability/evals) and LangGraph Platform (managed deployment) also cover the runtime/governance layer.*
 
 ### Two findings this map makes visible
