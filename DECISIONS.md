@@ -56,3 +56,6 @@ Key decisions made and the rationale behind them. Read before making architectur
 | Contact button: `btn-outline` not `btn-success` | `btn-success` (green) blends into teal background. `btn-outline` gives white border/text — same style as hero section CTA. |
 | Post layout: `col-lg-10 col-lg-offset-1` | Original `col-lg-8 col-lg-offset-2` left too much whitespace. |
 | List item font size: `.post-content ul li, ol li { font-size: 20px }` | Jekyll's kramdown doesn't wrap single/tight list items in `<p>` tags, so they miss the global `p { font-size: 20px }` rule. Generic CSS fix in post layout covers all current and future posts. |
+| `.post-intro ul li { font-size: 17px }` — more specific override | `.post-content ul li` (20px) also applies inside `.post-intro`. Intro paragraph text is 17px; this rule brings list items in the callout block into line. |
+| Skills icons: `max-width: 160px` on `.portfolio-link` | Default 400px made icons fill the full column and look oversized. 160px is proportionate in the 3-column layout. |
+| Favicon: SVG-first with ICO fallback | `favicon.svg` (teal rounded square, white "J") declared first in `head.html`; browsers that don't support SVG favicons fall back to the existing `favicon.ico`. |

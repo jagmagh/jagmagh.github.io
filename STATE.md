@@ -4,7 +4,7 @@
 **Repo**: `D:\www.jagmagh.com\jagmagh.github.io` → GitHub: `jagmagh/jagmagh.github.io`  
 **Hosting**: GitHub Pages (custom domain via CNAME)  
 **Stack**: Jekyll 3.8.5 · Freelancer Bootstrap Theme · Formspree (contact form)  
-**Last session**: 2026-06-07  
+**Last session**: 2026-06-07 (session 2)  
 **HTTPS status**: DNS correct (CNAME → jagmagh.github.io ✓), certificate being provisioned — click "Enforce HTTPS" in GitHub Settings → Pages once available
 
 ---
@@ -37,6 +37,15 @@ All changes below are **local only — not yet committed**. Review and commit wh
 - `_posts/2019-03-06-project-1.markdown`
 - `_posts/2019-03-06-project-2.markdown`
 - `_posts/2019-03-06-project-3.markdown`
+
+### Modified files (session 2 additions)
+- `_includes/head.html` — added `<link rel="icon">` for SVG and ICO favicon
+- `_includes/css/main.css` — `max-width` on `.portfolio-link` reduced 400px → 160px (icons smaller)
+- `_layouts/post.html` — added `.post-intro ul li, ol li { font-size: 17px }` to match intro paragraph size
+- `_posts/2026-06-07-agentic-ai-...md` — dragon line reworded: "wield" → "let a dragon run amok"
+
+### New files (session 2 additions)
+- `favicon.svg` — teal rounded square (#2E86AB) with white bold "J"; SVG-first with `favicon.ico` fallback
 
 ### Images added
 - `img/2026-06-07-image1.jpg` — hero image for blog post (full-width below tagline)
