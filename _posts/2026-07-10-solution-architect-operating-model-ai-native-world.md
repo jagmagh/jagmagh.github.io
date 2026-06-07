@@ -67,12 +67,12 @@ The table below compares the architect's activities before and after the widespr
 <table style="width: 100%; border-collapse: collapse; font-size: 0.82em;">
 <thead>
 <tr style="background: #1F3864;">
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 150px; color: white;">Activity</th>
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 90px; color: white;">Lifecycle Stage</th>
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 160px; color: white;">Role Before AI</th>
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 160px; color: white;">Role Now</th>
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 150px; color: white;">Why It Shifted</th>
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 130px; color: white;">Mapped Offering</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 150px; color: white !important;">Activity</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 90px; color: white !important;">Lifecycle Stage</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 160px; color: white !important;">Role Before AI</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 160px; color: white !important;">Role Now</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 150px; color: white !important;">Why It Shifted</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 130px; color: white !important;">Mapped Offering</th>
 </tr>
 </thead>
 <tbody>
@@ -301,7 +301,7 @@ The advisory work described in the preceding sections is only as credible as the
 
 Because both construction and advisory work can be performed competently, the deciding question for any engagement is not which type of work it is, but whether it compounds:
 
-<div style="border-left: 5px solid #2E86AB; background: #EEF6FB; padding: 1.2em 1.5em; margin: 1.5em 0; font-style: italic; font-size: 1.05em; color: #1F3864; border-radius: 0 4px 4px 0; line-height: 1.6;">
+<div style="border-left: 5px solid #2E86AB; background: #EEF6FB; padding: 1.2em 1.5em; margin: 1.5em 0; font-size: 20px; color: #1F3864; border-radius: 0 4px 4px 0; line-height: 1.6;">
 Does performing this work well make the architect harder to replace and more trusted next year — or does it simply produce one more competent output that anyone with current tooling could have produced?
 </div>
 
