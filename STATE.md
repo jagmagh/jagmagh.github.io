@@ -11,46 +11,36 @@
 
 ## Working Tree Status
 
-All changes below are **local only — not yet committed**. Review and commit when ready.
+All website changes are **committed and live** on GitHub Pages (pushed to `master`). The `inputs/` directory is intentionally untracked by git.
 
-### Modified files
-- `Gemfile` — added `gem "webrick"` for Ruby 3.x compatibility
-- `_config.yml` — title, description, skills tagline, colours, footer, collections, future: true
-- `_includes/about.html` — full rewrite with accurate bio
-- `_includes/contact.html` — teal background, star-light divider, btn-outline Send button, text-center
-- `_includes/modals.html` — updated to use `site.portfolio`
-- `_includes/nav.html` — Blog link added, smooth scroll fix, menu order (About · Skills · Blog · Contact)
-- `_includes/portfolio_grid.html` — col-sm-4 layout, skill titles added and centred, site.portfolio
-- `_layouts/default.html` — blog_preview include added
+_(All website file changes committed and pushed — see git log for detail)_
 
-### New files
-- `_portfolio/project-1.md` — Technology Strategy (moved from _posts, lorem ipsum replaced)
-- `_portfolio/project-2.md` — Digital Transformation (moved from _posts, lorem ipsum replaced)
-- `_portfolio/project-3.md` — Solving Complex Problems (moved from _posts, lorem ipsum replaced)
-- `_includes/blog_preview.html` — home page blog preview (5 recent posts, hidden if none)
-- `_layouts/blog_page.html` — layout for /blog listing page
-- `_layouts/post.html` — layout for individual blog posts (table styles, list font fix, post-intro callout)
-- `blog.html` — /blog listing page
-- `_posts/2026-06-07-agentic-ai-the-stack-and-the-harder-question.md` — first blog post
+---
 
-### Deleted files
-- `_posts/2019-03-06-project-1.markdown`
-- `_posts/2019-03-06-project-2.markdown`
-- `_posts/2019-03-06-project-3.markdown`
+## Deliverable: Solution Architect Role Definition (v2)
 
-### Modified files (session 2 additions)
-- `_includes/head.html` — added `<link rel="icon">` for SVG and ICO favicon
-- `_includes/css/main.css` — `max-width` on `.portfolio-link` reduced 400px → 160px (icons smaller)
-- `_layouts/post.html` — added `.post-intro ul li, ol li { font-size: 17px }` to match intro paragraph size
-- `_posts/2026-06-07-agentic-ai-...md` — dragon line reworded: "wield" → "let a dragon run amok"
+**Last updated**: 2026-06-07 (session 3)  
+**Status**: Generated — content refinement in progress  
+**Output file**: `outputs/Solution Architect Role Re-Definition v2.docx`  
+**Generator**: `work/build_v2.py` (python-docx — run `python work/build_v2.py` to regenerate)  
+**Style template**: `inputs/Solution Architect Role Re-Definition.docx` (original source DOCX — externally authored; styles/numbering inherited)  
+**Content source**: `work/Solution Architect Role Re-Definition v2.txt` (note: may be out of sync with build script — see open questions)  
+**Note**: `inputs/`, `work/`, `outputs/` are all excluded from Jekyll builds and untracked by git
 
-### New files (session 2 additions)
-- `favicon.svg` — teal rounded square (#2E86AB) with white bold "J"; SVG-first with `favicon.ico` fallback
+### Document structure (8 sections)
 
-### Images added
-- `img/2026-06-07-image1.jpg` — hero image for blog post (full-width below tagline)
-- `img/2026-06-07-image2.jpg` — uploaded but not yet placed in post
-- `img/2026-06-07-image3.png` — 2×2 AI risk quadrant diagram (Part 3 of blog post)
+| # | Title | Notes |
+|---|---|---|
+| 1 | Purpose | Scopes the document to the architect's role in an AI-native world |
+| 2 | Operating Premise | Three shifts: construction, breadth, judgment |
+| 3 | What Judgment Is | Defines "judgment" concretely — new section in v2 |
+| 4 | How the Role Has Changed | Colour-coded table on landscape page (red/yellow/green) |
+| 5 | Where the Architect's Value Has Gravitated | Billable offerings — 5A (independent) and 5B (within implementation) |
+| 6 | Supporting Discipline: Building for Knowledge | Internal practice — not billed, keeps judgment credible |
+| 7 | The Governing Filter | Governing question: does this compound? |
+| 8 | Summary | One-paragraph close |
+
+**Section 5 sub-sections**: 5.1 Pre-Sales Solutioning · 5.2 Decision Guidance · 5.3 Platform/Vendor/Transformation · 5.4 Trusted Technology Advisory · 5.5 Architectural Decisions and Risk Ownership during the Build
 
 ---
 

@@ -67,3 +67,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - freelancer-theme-jekyll.gemspec
+  - inputs/
+  - work/
+  - outputs/

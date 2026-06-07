@@ -38,6 +38,22 @@ Key decisions made and the rationale behind them. Read before making architectur
 
 ---
 
+## Role Definition Document (inputs/)
+
+| Decision | Rationale |
+|---|---|
+| Generated via `build_v2.py` (python-docx), not hand-crafted Word | Reproducible — content and formatting are source-controlled in the script; regenerate with `python work/build_v2.py` |
+| `work/`, `outputs/`, `inputs/` kept **untracked by git**, excluded from Jekyll | Source files include the original `.docx` (style template) and intermediate scripts; not appropriate for the public GitHub Pages repo. All three folders added to `exclude:` in `_config.yml` |
+| **Folder convention**: `inputs/` = externally authored source files; `work/` = scripts + intermediate files; `outputs/` = final deliverables | `inputs/` holds what came from outside this project (the original DOCX); `work/` holds what was created here to produce the output; `outputs/` holds what gets shared or sent |
+| **"Architect"** used throughout body, not "Solution Architect" | Title scopes the document to SA; using "Solution Architect" in body would be verbose and would misattribute EA-territory offerings (5.3, 5.4) |
+| Two-layer framing (Internal Capability Layer / External Value Layer) **not used as structural framing** | Decision was to relegate the two-layer model — it implied equal billing for internal and external layers; the document's value is the external/billable surface, with the internal practice as a supporting discipline |
+| Section 5 bridge paragraph removed entirely | Its sole job was to name the two-layer split before the offerings. Without that framing it had no purpose; Section 5 now opens directly with the offerings |
+| Section 5 title: **"Where the Architect's Value Has Gravitated"** | Replaces "External Value Layer — The Billable Surface". "Gravitated" captures that value moved here as a structural consequence of AI, not by choice. Echoes the document's operating premise |
+| Subtitle uses **"The Architect's"** — Section 1 aligned down to match | Title ("Solution Architect Role Definition") scopes the document; subtitle and body use "the architect" as shorthand. Section 1 opening changed from "This document defines the role of the Solution Architect..." to "...the architect's role..." |
+| Content apostrophes preserved as U+2019 (curly); Python string delimiters converted to straight ASCII quotes | `build_v2.py` was authored in an environment that auto-curled quotes. Fixed by replacing U+2018 opening delimiters and U+2019 closing delimiters with straight `'`; content apostrophes left as U+2019 (valid inside single-quoted Python strings and correct for Word output) |
+
+---
+
 ## Infrastructure
 
 | Decision | Rationale |

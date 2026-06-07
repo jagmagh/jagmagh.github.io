@@ -1,0 +1,316 @@
+﻿=== HEADING 1 STYLE XML ===
+<w:style xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" w:type="paragraph" w:styleId="Heading1">
+  <w:name w:val="Heading 1"/>
+  <w:basedOn w:val="Heading"/>
+  <w:qFormat/>
+  <w:pPr>
+    <w:spacing w:before="320" w:after="160"/>
+    <w:outlineLvl w:val="0"/>
+  </w:pPr>
+  <w:rPr>
+    <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:eastAsia="Arial" w:cs="Arial"/>
+    <w:b/>
+    <w:bCs/>
+    <w:color w:val="1F3864"/>
+    <w:sz w:val="30"/>
+    <w:szCs w:val="30"/>
+  </w:rPr>
+</w:style>
+
+
+=== TABLE FULL DUMP ===
+
+Table 0: style='None', rows=9, cols=6
+  [0,0] bg=fill=1F3864 color= val=clear
+         text='Activity'
+         runs=["b=True,sz=133350,c=FFFFFF,i=None|'Activity'"]
+  [0,1] bg=fill=1F3864 color= val=clear
+         text='Lifecycle Stage'
+         runs=["b=True,sz=133350,c=FFFFFF,i=None|'Lifecycle Stage'"]
+  [0,2] bg=fill=1F3864 color= val=clear
+         text='Role Before AI'
+         runs=["b=True,sz=133350,c=FFFFFF,i=None|'Role Before AI'"]
+  [0,3] bg=fill=1F3864 color= val=clear
+         text='Role Now'
+         runs=["b=True,sz=133350,c=FFFFFF,i=None|'Role Now'"]
+  [0,4] bg=fill=1F3864 color= val=clear
+         text='Why It Shifted'
+         runs=["b=True,sz=133350,c=FFFFFF,i=None|'Why It Shifted'"]
+  [0,5] bg=fill=1F3864 color= val=clear
+         text='Mapped Offering (Sec. 6)'
+         runs=["b=True,sz=133350,c=FFFFFF,i=None|'Mapped Offering (Sec. 6)'"]
+  [1,0] bg=fill=FCE4E4 color= val=clear
+         text='Technical breadth � knowing the landscape'
+         runs=["b=True,sz=114300,c=1F3864,i=None|'Technical breadth � knowing th'"]
+  [1,1] bg=fill=FCE4E4 color= val=clear
+         text='Cross-cutting'
+         runs=["b=False,sz=114300,c=595959,i=None|'Cross-cutting'"]
+  [1,2] bg=fill=FCE4E4 color= val=clear
+         text='Encyclopedic recall of technologies, products, and patterns '
+         runs=["b=False,sz=114300,c=000000,i=None|'Encyclopedic recall of technol'"]
+  [1,3] bg=fill=FCE4E4 color= val=clear
+         text='AI supplies breadth on demand; the architect curates and sel'
+         runs=["b=False,sz=114300,c=000000,i=None|'AI supplies breadth on demand;'"]
+  [1,4] bg=fill=FCE4E4 color= val=clear
+         text='Recall is now instant and free, so it no longer justifies an'
+         runs=["b=False,sz=114300,c=000000,i=None|'Recall is now instant and free'"]
+  [1,5] bg=fill=FCE4E4 color= val=clear
+         text='Not sold � developer / AI'
+         runs=["b=True,sz=114300,c=1F3864,i=None|'Not sold � developer / AI'"]
+  [2,0] bg=fill=FCE4E4 color= val=clear
+         text='Building and construction'
+         runs=["b=True,sz=114300,c=1F3864,i=None|'Building and construction'"]
+  [2,1] bg=fill=FCE4E4 color= val=clear
+         text='Build'
+         runs=["b=False,sz=114300,c=595959,i=None|'Build'"]
+  [2,2] bg=fill=FCE4E4 color= val=clear
+         text='Significant hands-on construction was central and billable.'
+         runs=["b=False,sz=114300,c=000000,i=None|'Significant hands-on construct'"]
+  [2,3] bg=fill=FCE4E4 color= val=clear
+         text='Construction is delegated to AI; building is retained intern'
+         runs=["b=False,sz=114300,c=000000,i=None|'Construction is delegated to A'"]
+  [2,4] bg=fill=FCE4E4 color= val=clear
+         text='AI builds faster and cheaper, so construction can be deliver'
+         runs=["b=False,sz=114300,c=000000,i=None|'AI builds faster and cheaper, '"]
+  [2,5] bg=fill=FCE4E4 color= val=clear
+         text='Not sold � developer / AI (retained internally per Sec. 5)'
+         runs=["b=True,sz=114300,c=1F3864,i=None|'Not sold � developer / AI (ret'"]
+  [3,0] bg=fill=FFF3D6 color= val=clear
+         text='Producing solutions and proposals'
+         runs=["b=True,sz=114300,c=1F3864,i=None|'Producing solutions and propos'"]
+  [3,1] bg=fill=FFF3D6 color= val=clear
+         text='Pre-sales'
+         runs=["b=False,sz=114300,c=595959,i=None|'Pre-sales'"]
+  [3,2] bg=fill=FFF3D6 color= val=clear
+         text='Hand-crafting solution outlines, proposals, estimates, and d'
+         runs=["b=False,sz=114300,c=000000,i=None|'Hand-crafting solution outline'"]
+  [3,3] bg=fill=FFF3D6 color= val=clear
+         text='Directing and validating AI-produced artifacts; owning quali'
+         runs=["b=False,sz=114300,c=000000,i=None|'Directing and validating AI-pr'"]
+  [3,4] bg=fill=FFF3D6 color= val=clear
+         text='AI produces the artifacts quickly; value moves to judgment, '
+         runs=["b=False,sz=114300,c=000000,i=None|'AI produces the artifacts quic'"]
+  [3,5] bg=fill=FFF3D6 color= val=clear
+         text='Sold as 6.1 � architect judgment guides AI / Dev output'
+         runs=["b=True,sz=114300,c=1F3864,i=None|'Sold as 6.1 � architect judgme'"]
+  [4,0] bg=fill=FFF3D6 color= val=clear
+         text='Design patterns and first-draft deliverables'
+         runs=["b=True,sz=114300,c=1F3864,i=None|'Design patterns and first-draf'"]
+  [4,1] bg=fill=FFF3D6 color= val=clear
+         text='Design'
+         runs=["b=False,sz=114300,c=595959,i=None|'Design'"]
+  [4,2] bg=fill=FFF3D6 color= val=clear
+         text='Producing reference designs, matrices, and first-draft docum'
+         runs=["b=False,sz=114300,c=000000,i=None|'Producing reference designs, m'"]
+  [4,3] bg=fill=FFF3D6 color= val=clear
+         text='AI generates the first draft; the architect judges, corrects'
+         runs=["b=False,sz=114300,c=000000,i=None|'AI generates the first draft; '"]
+  [4,4] bg=fill=FFF3D6 color= val=clear
+         text='Generation is commoditised; discrimination and fit-to-contex'
+         runs=["b=False,sz=114300,c=000000,i=None|'Generation is commoditised; di'"]
+  [4,5] bg=fill=FFF3D6 color= val=clear
+         text='Feeds 6.1 & 6.5 � architect judges AI drafts'
+         runs=["b=True,sz=114300,c=1F3864,i=None|'Feeds 6.1 & 6.5 � architect ju'"]
+  [5,0] bg=fill=FFF3D6 color= val=clear
+         text='Reviewing and assuring the build'
+         runs=["b=True,sz=114300,c=1F3864,i=None|'Reviewing and assuring the bui'"]
+  [5,1] bg=fill=FFF3D6 color= val=clear
+         text='Build'
+         runs=["b=False,sz=114300,c=595959,i=None|'Build'"]
+  [5,2] bg=fill=FFF3D6 color= val=clear
+         text='Reviewing deliverables produced by human teams.'
+         runs=["b=False,sz=114300,c=000000,i=None|'Reviewing deliverables produce'"]
+  [5,3] bg=fill=FFF3D6 color= val=clear
+         text='First-pass review by AI and developers; the architect owns t'
+         runs=["b=False,sz=114300,c=000000,i=None|'First-pass review by AI and de'"]
+  [5,4] bg=fill=FFF3D6 color= val=clear
+         text='Detection is commoditised, but adjudicating conflicting goal'
+         runs=["b=False,sz=114300,c=000000,i=None|'Detection is commoditised, but'"]
+  [5,5] bg=fill=FFF3D6 color= val=clear
+         text='Sold as 6.5 � architect owns trade-offs & risk'
+         runs=["b=True,sz=114300,c=1F3864,i=None|'Sold as 6.5 � architect owns t'"]
+  [6,0] bg=fill=E2F0E2 color= val=clear
+         text='Deciding what to build vs. what not to build'
+         runs=["b=True,sz=114300,c=1F3864,i=None|'Deciding what to build vs. wha'"]
+  [6,1] bg=fill=E2F0E2 color= val=clear
+         text='Pre-sales / Design'
+         runs=["b=False,sz=114300,c=595959,i=None|'Pre-sales / Design'"]
+  [6,2] bg=fill=E2F0E2 color= val=clear
+         text='An implicit part of architect judgment, not always named as '
+         runs=["b=False,sz=114300,c=000000,i=None|'An implicit part of architect '"]
+  [6,3] bg=fill=E2F0E2 color= val=clear
+         text='An explicit, high-value offering � the scarce discriminator '
+         runs=["b=False,sz=114300,c=000000,i=None|'An explicit, high-value offeri'"]
+  [6,4] bg=fill=E2F0E2 color= val=clear
+         text='AI generates options confidently but cannot decide what is w'
+         runs=["b=False,sz=114300,c=000000,i=None|'AI generates options confident'"]
+  [6,5] bg=fill=E2F0E2 color= val=clear
+         text='Sold as 6.2 � irreducibly architect-led'
+         runs=["b=True,sz=114300,c=1F3864,i=None|'Sold as 6.2 � irreducibly arch'"]
+  [7,0] bg=fill=E2F0E2 color= val=clear
+         text='Platform, vendor, and transformation decisions'
+         runs=["b=True,sz=114300,c=1F3864,i=None|'Platform, vendor, and transfor'"]
+  [7,1] bg=fill=E2F0E2 color= val=clear
+         text='Design / Plan'
+         runs=["b=False,sz=114300,c=595959,i=None|'Design / Plan'"]
+  [7,2] bg=fill=E2F0E2 color= val=clear
+         text='Assessments and selections grounded in experience and client'
+         runs=["b=False,sz=114300,c=000000,i=None|'Assessments and selections gro'"]
+  [7,3] bg=fill=E2F0E2 color= val=clear
+         text='Largely unchanged; AI assists analysis but the decision and '
+         runs=["b=False,sz=114300,c=000000,i=None|'Largely unchanged; AI assists '"]
+  [7,4] bg=fill=E2F0E2 color= val=clear
+         text='Requires context and accountability AI cannot hold, so it re'
+         runs=["b=False,sz=114300,c=000000,i=None|'Requires context and accountab'"]
+  [7,5] bg=fill=E2F0E2 color= val=clear
+         text='Sold as 6.3 � irreducibly architect-led'
+         runs=["b=True,sz=114300,c=1F3864,i=None|'Sold as 6.3 � irreducibly arch'"]
+  [8,0] bg=fill=E2F0E2 color= val=clear
+         text='Client relationship and accountability'
+         runs=["b=True,sz=114300,c=1F3864,i=None|'Client relationship and accoun'"]
+  [8,1] bg=fill=E2F0E2 color= val=clear
+         text='Cross-cutting'
+         runs=["b=False,sz=114300,c=595959,i=None|'Cross-cutting'"]
+  [8,2] bg=fill=E2F0E2 color= val=clear
+         text='The trusted relationship and the willingness to stake credib'
+         runs=["b=False,sz=114300,c=000000,i=None|'The trusted relationship and t'"]
+  [8,3] bg=fill=E2F0E2 color= val=clear
+         text='Unchanged and more pivotal as AI-polished competitors look i'
+         runs=["b=False,sz=114300,c=000000,i=None|'Unchanged and more pivotal as '"]
+  [8,4] bg=fill=E2F0E2 color= val=clear
+         text='Trust, presence, and accountability are inherently human and'
+         runs=["b=False,sz=114300,c=000000,i=None|'Trust, presence, and accountab'"]
+  [8,5] bg=fill=E2F0E2 color= val=clear
+         text='Underpins 6.1 & 6.4 � the connective tissue'
+         runs=["b=True,sz=114300,c=1F3864,i=None|'Underpins 6.1 & 6.4 � the conn'"]
+
+Table 1: style='None', rows=3, cols=3
+  [0,0] bg=fill=1F3864 color= val=clear
+         text='Layer'
+         runs=["b=True,sz=None,c=FFFFFF,i=None|'Layer'"]
+  [0,1] bg=fill=1F3864 color= val=clear
+         text='Primary Purpose'
+         runs=["b=True,sz=None,c=FFFFFF,i=None|'Primary Purpose'"]
+  [0,2] bg=fill=1F3864 color= val=clear
+         text='Positioned to Client?'
+         runs=["b=True,sz=None,c=FFFFFF,i=None|'Positioned to Client?'"]
+  [1,0] bg=fill=EAF1F8 color= val=clear
+         text='Internal capability (building for knowledge)'
+         runs=["b=None,sz=None,c=None,i=None|'Internal capability (building '"]
+  [1,1] bg=none
+         text='Keep judgment grounded in current technical reality'
+         runs=["b=None,sz=None,c=None,i=None|'Keep judgment grounded in curr'"]
+  [1,2] bg=none
+         text='No � internal investment'
+         runs=["b=None,sz=None,c=None,i=None|'No � internal investment'"]
+  [2,0] bg=fill=EAF1F8 color= val=clear
+         text='External value (advisory and assurance)'
+         runs=["b=None,sz=None,c=None,i=None|'External value (advisory and a'"]
+  [2,1] bg=none
+         text='Direct, review, and stand accountable for technical decision'
+         runs=["b=None,sz=None,c=None,i=None|'Direct, review, and stand acco'"]
+  [2,2] bg=none
+         text='Yes � the billable surface'
+         runs=["b=None,sz=None,c=None,i=None|'Yes � the billable surface'"]
+
+=== INDENTED / SPECIAL PARAGRAPHS ===
+[43] indent=228600 before=38100 after=101600
+     'Carries into delivery:  the trust and solution credibility established'
+     ["b=True,i=True,sz=127000,c=595959|'Carries into delivery:  '", "b=None,i=True,sz=127000,c=595959|'the trust and solution credibility estab'"]
+[45] indent=228600 before=0 after=25400
+     'Trigger � An active or prospective opportunity where a solution and pr'
+     ["b=True,i=None,sz=120650,c=2E75B6|'Trigger � '", "b=None,i=None,sz=120650,c=None|'An active or prospective opportunity whe'"]
+[46] indent=228600 before=0 after=25400
+     'Engagement shape � Bid and pursuit work � typically unbilled investmen'
+     ["b=True,i=None,sz=120650,c=2E75B6|'Engagement shape � '", "b=None,i=None,sz=120650,c=None|'Bid and pursuit work � typically unbille'"]
+[47] indent=228600 before=0 after=25400
+     'Staffing � Architect-led on qualification, feasibility, and the client'
+     ["b=True,i=None,sz=120650,c=2E75B6|'Staffing � '", "b=None,i=None,sz=120650,c=None|'Architect-led on qualification, feasibil'"]
+[54] indent=228600 before=38100 after=101600
+     'Also applies within implementations:  as a decision checkpoint when sc'
+     ["b=True,i=True,sz=127000,c=595959|'Also applies within implementations:  '", "b=None,i=True,sz=127000,c=595959|'as a decision checkpoint when scope, req'"]
+[56] indent=228600 before=0 after=25400
+     'Trigger � A client facing a consequential, contested, or expensive dec'
+     ["b=True,i=None,sz=120650,c=2E75B6|'Trigger � '", "b=None,i=None,sz=120650,c=None|'A client facing a consequential, contest'"]
+[57] indent=228600 before=0 after=25400
+     'Engagement shape � A short, sharp advisory engagement � an assessment,'
+     ["b=True,i=None,sz=120650,c=2E75B6|'Engagement shape � '", "b=None,i=None,sz=120650,c=None|'A short, sharp advisory engagement � an '"]
+[58] indent=228600 before=0 after=25400
+     'Staffing � Architect-led throughout; AI used to surface and stress-tes'
+     ["b=True,i=None,sz=120650,c=2E75B6|'Staffing � '", "b=None,i=None,sz=120650,c=None|'Architect-led throughout; AI used to sur'"]
+[65] indent=228600 before=38100 after=101600
+     'Also applies within implementations:  when a platform or vendor decisi'
+     ["b=True,i=True,sz=127000,c=595959|'Also applies within implementations:  '", "b=None,i=True,sz=127000,c=595959|'when a platform or vendor decision is re'"]
+[67] indent=228600 before=0 after=25400
+     'Trigger � A client planning a transformation, replatforming, or major '
+     ["b=True,i=None,sz=120650,c=2E75B6|'Trigger � '", "b=None,i=None,sz=120650,c=None|'A client planning a transformation, repl'"]
+[68] indent=228600 before=0 after=25400
+     'Engagement shape � A discrete, scoped engagement � assessment, vendor '
+     ["b=True,i=None,sz=120650,c=2E75B6|'Engagement shape � '", "b=None,i=None,sz=120650,c=None|'A discrete, scoped engagement � assessme'"]
+[69] indent=228600 before=0 after=25400
+     'Staffing � Architect-led; AI accelerates landscape analysis and option'
+     ["b=True,i=None,sz=120650,c=2E75B6|'Staffing � '", "b=None,i=None,sz=120650,c=None|'Architect-led; AI accelerates landscape '"]
+[76] indent=228600 before=38100 after=38100
+     'AI advisory as a specialisation:  given current momentum, AI-specific '
+     ["b=True,i=True,sz=127000,c=595959|'AI advisory as a specialisation:  '", "b=None,i=True,sz=127000,c=595959|'given current momentum, AI-specific advi'"]
+[77] indent=228600 before=38100 after=101600
+     'Also applies within implementations:  as the governance and standards '
+     ["b=True,i=True,sz=127000,c=595959|'Also applies within implementations:  '", "b=None,i=True,sz=127000,c=595959|'as the governance and standards authorit'"]
+[79] indent=228600 before=0 after=25400
+     'Trigger � Leadership needing a credible, independent technology voice '
+     ["b=True,i=None,sz=120650,c=2E75B6|'Trigger � '", "b=None,i=None,sz=120650,c=None|'Leadership needing a credible, independe'"]
+[80] indent=228600 before=0 after=25400
+     'Engagement shape � A relationship rather than a project � retainer-sty'
+     ["b=True,i=None,sz=120650,c=2E75B6|'Engagement shape � '", "b=None,i=None,sz=120650,c=None|'A relationship rather than a project � r'"]
+[81] indent=228600 before=0 after=25400
+     'Staffing � Architect-only at the advisory seat; analysis and supportin'
+     ["b=True,i=None,sz=120650,c=2E75B6|'Staffing � '", "b=None,i=None,sz=120650,c=None|'Architect-only at the advisory seat; ana'"]
+[92] indent=228600 before=0 after=50800
+     'Project setup � high involvement � establish the architecture, standar'
+     ["b=True,i=None,sz=127000,c=2E75B6|'Project setup � '", "b=None,i=None,sz=127000,c=None|'high involvement � establish the archite'"]
+[93] indent=228600 before=0 after=50800
+     'Throughout delivery � light, advisory involvement � available for desi'
+     ["b=True,i=None,sz=127000,c=2E75B6|'Throughout delivery � '", "b=None,i=None,sz=127000,c=None|'light, advisory involvement � available '"]
+[94] indent=228600 before=0 after=50800
+     'Key gates � concentrated involvement � own the trade-off and risk deci'
+     ["b=True,i=None,sz=127000,c=2E75B6|'Key gates � '", "b=None,i=None,sz=127000,c=None|'concentrated involvement � own the trade'"]
+[95] indent=228600 before=38100 after=101600
+     'Also applies as a standalone engagement:  as an independent architectu'
+     ["b=True,i=True,sz=127000,c=595959|'Also applies as a standalone engagement:'", "b=None,i=True,sz=127000,c=595959|'as an independent architecture or assura'"]
+[97] indent=228600 before=0 after=25400
+     'Trigger � An implementation under way where consequential architectura'
+     ["b=True,i=None,sz=120650,c=2E75B6|'Trigger � '", "b=None,i=None,sz=120650,c=None|'An implementation under way where conseq'"]
+[98] indent=228600 before=0 after=25400
+     'Engagement shape � A defined role within a delivery programme � front-'
+     ["b=True,i=None,sz=120650,c=2E75B6|'Engagement shape � '", "b=None,i=None,sz=120650,c=None|'A defined role within a delivery program'"]
+[99] indent=228600 before=0 after=25400
+     'Staffing � Architect owns decisions and risk acceptance; first-pass re'
+     ["b=True,i=None,sz=120650,c=2E75B6|'Staffing � '", "b=None,i=None,sz=120650,c=None|'Architect owns decisions and risk accept'"]
+[102] indent=228600 before=76200 after=76200
+     'Does performing this work well make the architect harder to replace an'
+     ["b=None,i=True,sz=152400,c=1F3864|'Does performing this work well make the '"]
+
+=== 6A/6B SECTION HEADING PARAGRAPHS ===
+[34] style='Heading 2' before=None after=None indent=None
+     '6A. Independent Sellable Engagements'
+     ["b=None,i=None,sz=None,c=None|'6A. Independent Sellable Engagements'"]
+[82] style='Heading 2' before=None after=None indent=None
+     '6B. Roles Within a Larger Implementation'
+     ["b=None,i=None,sz=None,c=None|'6B. Roles Within a Larger Implementation'"]
+
+=== CARRIES/ALSO APPLIES PARAGRAPHS ===
+[43] style='Normal' before=38100 after=101600 indent=228600
+     'Carries into delivery:  the trust and solution credibility established here is w'
+     ["b=True,i=True,sz=127000,c=595959|'Carries into delivery:  '", "b=None,i=True,sz=127000,c=595959|'the trust and solution credibility estab'"]
+[54] style='Normal' before=38100 after=101600 indent=228600
+     'Also applies within implementations:  as a decision checkpoint when scope, requi'
+     ["b=True,i=True,sz=127000,c=595959|'Also applies within implementations:  '", "b=None,i=True,sz=127000,c=595959|'as a decision checkpoint when scope, req'"]
+[65] style='Normal' before=38100 after=101600 indent=228600
+     'Also applies within implementations:  when a platform or vendor decision is reop'
+     ["b=True,i=True,sz=127000,c=595959|'Also applies within implementations:  '", "b=None,i=True,sz=127000,c=595959|'when a platform or vendor decision is re'"]
+[77] style='Normal' before=38100 after=101600 indent=228600
+     'Also applies within implementations:  as the governance and standards authority '
+     ["b=True,i=True,sz=127000,c=595959|'Also applies within implementations:  '", "b=None,i=True,sz=127000,c=595959|'as the governance and standards authorit'"]
+[95] style='Normal' before=38100 after=101600 indent=228600
+     'Also applies as a standalone engagement:  as an independent architecture or assu'
+     ["b=True,i=True,sz=127000,c=595959|'Also applies as a standalone engagement:'", "b=None,i=True,sz=127000,c=595959|'as an independent architecture or assura'"]
