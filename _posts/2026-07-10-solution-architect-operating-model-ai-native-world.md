@@ -10,7 +10,7 @@ excerpt: "AI is a strong generator and a weak discriminator. It produces plausib
 <p>What AI has not commoditised is judgment — deciding what to build, what not to build, and what will fail before it fails. That is where architect value has gravitated, and this is the operating model built around it.</p>
 </div>
 
-<img src="/img/2026-06-10-image1.png" alt="The Solution Architect's Operating Model in an AI-Native World" style="display: block; width: 100%; margin: 20px 0 30px;">
+<img src="/img/2026-06-10-image1.jpg" alt="The Solution Architect's Operating Model in an AI-Native World" style="display: block; width: 100%; margin: 20px 0 30px;">
 
 <br>
 
