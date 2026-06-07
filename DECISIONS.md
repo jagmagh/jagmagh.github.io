@@ -51,6 +51,8 @@ Key decisions made and the rationale behind them. Read before making architectur
 | Section 5 title: **"Where the Architect's Value Has Gravitated"** | Replaces "External Value Layer — The Billable Surface". "Gravitated" captures that value moved here as a structural consequence of AI, not by choice. Echoes the document's operating premise |
 | Subtitle uses **"The Architect's"** — Section 1 aligned down to match | Title ("Solution Architect Role Definition") scopes the document; subtitle and body use "the architect" as shorthand. Section 1 opening changed from "This document defines the role of the Solution Architect..." to "...the architect's role..." |
 | Content apostrophes preserved as U+2019 (curly); Python string delimiters converted to straight ASCII quotes | `build_v2.py` was authored in an environment that auto-curled quotes. Fixed by replacing U+2018 opening delimiters and U+2019 closing delimiters with straight `'`; content apostrophes left as U+2019 (valid inside single-quoted Python strings and correct for Word output) |
+| **Intended audience**: external / public | Document is for public positioning — affects tone and specificity appropriate for external readers |
+| **`build_v2.py` is the authoritative source** — `v2.txt` deleted | The script is self-contained and fully reflects all content decisions; the txt file was a precursor that fell out of sync |
 
 ---
 

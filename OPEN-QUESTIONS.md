@@ -7,8 +7,8 @@ Things deferred, unfinished, or worth revisiting. Address these in future sessio
 ## Role Definition Document (inputs/)
 
 - [ ] **Content refinement**: document is structurally complete; further polish deferred — this is what was in progress at session 3
-- [ ] **v2.txt out of sync**: `work/Solution Architect Role Re-Definition v2.txt` no longer matches `build_v2.py` (it predates the session 3 changes). Either update the txt to match, or treat `build_v2.py` as the authoritative source and remove the txt
-- [ ] **Intended audience / use**: is this for internal Zuhlke use, client-facing, or personal positioning? Answer affects tone, level of specificity in 5.3/5.4, and whether it should be published (e.g. as a blog post or white paper)
+- [x] **v2.txt**: deleted — `build_v2.py` is the authoritative source
+- [x] **Intended audience / use**: external / public
 - [x] **Jekyll exclusion**: `inputs/`, `work/`, `outputs/` added to `exclude:` in `_config.yml` — Jekyll will not process or serve these directories
 - [x] **Folder structure**: `work/` holds scripts and intermediate files; `outputs/` holds final deliverables; `inputs/` retained but empty
 
