@@ -25,7 +25,7 @@ Things deferred, unfinished, or worth revisiting. Address these in future sessio
 
 ## Content — Blog
 
-- [x] **Image 2** (`img/2026-06-07-image2.jpg`): decided not to use — closed.
+- [x] **Image 2** (`img/2026-07-18-image2.jpg`): decided not to use — closed.
 - [x] **More blog posts**: two posts live — Agentic AI (2026-07-18) and SA Operating Model (2026-07-10). Continue publishing.
 - [ ] **Blog post excerpt for home preview**: currently set manually in front matter. Establish a habit: always set `excerpt:` in front matter for every new post.
 

@@ -4,16 +4,27 @@
 **Repo**: `D:\www.jagmagh.com\jagmagh.github.io` → GitHub: `jagmagh/jagmagh.github.io`  
 **Hosting**: GitHub Pages (custom domain via CNAME)  
 **Stack**: Jekyll 3.8.5 · Freelancer Bootstrap Theme · Formspree (contact form)  
-**Last session**: 2026-06-07 (session 3–4)  
-**HTTPS status**: DNS correct (CNAME → jagmagh.github.io ✓), certificate being provisioned — click "Enforce HTTPS" in GitHub Settings → Pages once available
+**Last session**: 2026-06-07 (session 5)  
+**HTTPS status**: enforced and working on www.jagmagh.com ✓
 
 ---
 
 ## Working Tree Status
 
-All website changes are **committed and live** on GitHub Pages (pushed to `master`). The `inputs/` directory is intentionally untracked by git.
+**Uncommitted changes pending** — stage and commit before next session:
 
-_(All website file changes committed and pushed — see git log for detail)_
+```
+git add _posts/2026-07-10-solution-architect-operating-model-ai-native-world.md
+git add _posts/2026-07-18-agentic-ai-the-stack-and-the-harder-question.md
+git rm _posts/2026-06-07-agentic-ai-the-stack-and-the-harder-question.md
+git add img/2026-06-10-image1.jpg
+git add img/2026-07-18-image1.jpg img/2026-07-18-image2.jpg img/2026-07-18-image3.png
+git rm img/2026-06-07-image1.jpg img/2026-06-07-image2.jpg img/2026-06-07-image3.png
+git add _includes/nav.html
+git add STATE.md OPEN-QUESTIONS.md DECISIONS.md
+```
+
+Message: `Add SA operating model post; standardise blog heading sizes and image naming; add favicon to navbar; compress hero images`
 
 ---
 
@@ -49,6 +60,7 @@ _(All website file changes committed and pushed — see git log for detail)_
 ```
 Home (/)
 ├── Header — "Jagmag H K" · Enterprise Architecture · Digital Transformation · AI-Augmented Architecture
+├── Navbar — favicon logo (favicon.svg) left of site name, flexbox-aligned
 ├── About — bio rewritten from resume + Zuhlke current role
 ├── Skills — 3 portfolio cards (Technology Strategy, Digital Transformation, Solving Complex Problems)
 ├── Blog — preview of 5 most recent posts (hidden if no posts)
@@ -64,7 +76,7 @@ Home (/)
 | Date | Slug | Title |
 |---|---|---|
 | 2026-07-18 | `2026-07-18-agentic-ai-the-stack-and-the-harder-question` | Agentic AI: Model Autonomy, and the Harder Question |
-| 2026-07-10 | `2026-07-10-solution-architect-operating-model-ai-native-world` | The Architect's Operating Model in an AI-Native World |
+| 2026-07-10 | `2026-07-10-solution-architect-operating-model-ai-native-world` | The Solution Architect's Operating Model in an AI-Native World |
 
 Note: both posts are future-dated relative to time of writing (2026-06-07). `future: true` in `_config.yml` ensures they render locally; GitHub Pages will hold them until the stated date unless `future: true` is also in the live config (it is).
 
