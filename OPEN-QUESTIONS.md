@@ -34,7 +34,7 @@ Things deferred, unfinished, or worth revisiting. Address these in future sessio
 ## Technical
 
 - [ ] **Local dev environment**: Ruby not installed, Docker Desktop not installed. Install one of these to enable local preview before pushing. RubyInstaller (Ruby+Devkit 3.2.x x64) from rubyinstaller.org is the recommended path.
-- [ ] **Contact form (Formspree)**: the form currently posts to `//formspree.io/{{ site.email }}`. Verify this is active and receiving submissions. May need a Formspree account setup at formspree.io.
+- [x] **Contact form (Formspree)**: wired up — `js/contact_me_static.js` now POSTs to `https://formspree.io/f/xjgdyrwg` with AJAX. Test after deploying to confirm emails arrive.
 - [ ] **Floating label focus colour on Contact section**: when a user clicks into a form field, the label turns teal (matching the background — invisible). The CSS rule `floating-label-form-group-with-focus label { color: primary }` needs to be overridden to white for the contact section.
 - [ ] **Google/Bing verification**: `_config.yml` has empty `google_verify` and `bing_verify` fields. Fill if SEO verification is needed.
 - [x] **Travis CI**: `.travis.yml` deleted — redundant since GitHub Pages auto-builds on every push.
