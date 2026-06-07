@@ -66,13 +66,13 @@ The table below compares the architect's activities before and after the widespr
 
 <table style="width: 100%; border-collapse: collapse; font-size: 0.82em;">
 <thead>
-<tr style="background: #1F3864;">
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 150px; color: white !important;">Activity</th>
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 90px; color: white !important;">Lifecycle Stage</th>
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 160px; color: white !important;">Role Before AI</th>
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 160px; color: white !important;">Role Now</th>
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 150px; color: white !important;">Why It Shifted</th>
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 130px; color: white !important;">Mapped Offering</th>
+<tr>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 150px; background: #1F3864; color: white;">Activity</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 90px; background: #1F3864; color: white;">Lifecycle Stage</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 160px; background: #1F3864; color: white;">Role Before AI</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 160px; background: #1F3864; color: white;">Role Now</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 150px; background: #1F3864; color: white;">Why It Shifted</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 130px; background: #1F3864; color: white;">Mapped Offering</th>
 </tr>
 </thead>
 <tbody>
