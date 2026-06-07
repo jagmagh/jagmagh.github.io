@@ -10,6 +10,8 @@ excerpt: "AI is a strong generator and a weak discriminator. It produces plausib
 <p>What AI has not commoditised is judgment — deciding what to build, what not to build, and what will fail before it fails. That is where architect value has gravitated, and this is the operating model built around it.</p>
 </div>
 
+<img src="/img/2026-06-10-image1.png" alt="The Solution Architect's Operating Model in an AI-Native World" style="display: block; width: 100%; margin: 20px 0 30px;">
+
 <br>
 
 ### 1. Purpose
@@ -64,13 +66,13 @@ The table below compares the architect's activities before and after the widespr
 
 <table style="width: 100%; border-collapse: collapse; font-size: 0.82em;">
 <thead>
-<tr style="background: #1F3864; color: white;">
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 150px;">Activity</th>
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 90px;">Lifecycle Stage</th>
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 160px;">Role Before AI</th>
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 160px;">Role Now</th>
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 150px;">Why It Shifted</th>
-  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 130px;">Mapped Offering</th>
+<tr style="background: #1F3864;">
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 150px; color: white;">Activity</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 90px; color: white;">Lifecycle Stage</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 160px; color: white;">Role Before AI</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 160px; color: white;">Role Now</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 150px; color: white;">Why It Shifted</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 130px; color: white;">Mapped Offering</th>
 </tr>
 </thead>
 <tbody>
@@ -154,7 +156,7 @@ Each offering in this section is an expression of senior technical judgment appl
 
 These can be scoped, sold, and delivered as engagements in their own right, independent of any single implementation project.
 
-##### 5.1 Pre-Sales Solutioning
+#### 5.1 Pre-Sales Solutioning
 
 What the client gets is an architect who shapes and vouches for the proposed solution — not just produces it. In a market where AI-generated proposals are uniformly polished, the differentiator is the judgment behind them: whether the solution is real, whether the estimate is honest, and whether the people proposing it have the standing to deliver.
 
@@ -175,7 +177,7 @@ What the client gets is an architect who shapes and vouches for the proposed sol
 
 ---
 
-##### 5.2 Decision Guidance — What to Build vs. What Not to Build
+#### 5.2 Decision Guidance — What to Build vs. What Not to Build
 
 The highest-value protection a client can buy: an architect who will tell them not to build something before they commit the budget to build it wrong. Incorrect decisions at this layer are the most expensive, and AI — which generates options confidently but carries no accountability for their consequences — is least reliable precisely here.
 
@@ -196,7 +198,7 @@ The highest-value protection a client can buy: an architect who will tell them n
 
 ---
 
-##### 5.3 Platform, Vendor, and Transformation Decisions
+#### 5.3 Platform, Vendor, and Transformation Decisions
 
 What the client gets is a recommendation grounded in their actual situation — not a feature matrix or a vendor pitch. Platform and transformation decisions require contextual and relational knowledge that AI cannot access: the organisation's operating constraints, its political dynamics, what its teams can realistically absorb, and what prior decisions have foreclosed. These remain durable architect responsibilities regardless of how capable tooling becomes.
 
@@ -217,7 +219,7 @@ What the client gets is a recommendation grounded in their actual situation — 
 
 ---
 
-##### 5.4 Trusted Technology Advisory
+#### 5.4 Trusted Technology Advisory
 
 What the client gets is an independent, credible voice that will tell leadership what it does not want to hear — including recommending against a technology, a vendor, or an initiative when the honest assessment is that it is the wrong choice. The value is not technology-specific; it is the combination of judgment, context, and willingness to stake reputation on a recommendation that runs contrary to the prevailing preference in the room.
 
@@ -244,7 +246,7 @@ What the client gets is an independent, credible voice that will tell leadership
 
 This offering exists only when a build is underway. It is engaged as a defined role inside an implementation project rather than sold as a standalone engagement.
 
-##### 5.5 Architectural Decisions and Risk Ownership during the Build
+#### 5.5 Architectural Decisions and Risk Ownership during the Build
 
 First-pass review and assessment are increasingly done by developers and AI. The architect's value in delivery is not running those checks but owning the trade-off decisions they surface and being accountable for the risk that ships.
 

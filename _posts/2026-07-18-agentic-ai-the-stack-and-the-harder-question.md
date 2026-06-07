@@ -21,7 +21,7 @@ excerpt: "Everyone's asking whether AI agents are good enough to put in producti
 
 *A field guide for architects deciding how — and whether — to put a language model in the driver's seat.*
 
-<img src="/img/2026-06-07-image1.jpg" alt="Agentic AI" style="display: block; width: 100%; margin: 20px 0 30px;">
+<img src="/img/2026-07-18-image1.jpg" alt="Agentic AI" style="display: block; width: 100%; margin: 20px 0 30px;">
 
 There is a lot of noise right now about agents, agent frameworks, and "agentic AI platforms." Most of it conflates layers that are actually distinct, and almost none of it asks the question that matters most: not *how* to build an agent, but *when you should let one act on its own*.
 
@@ -29,7 +29,7 @@ This piece does two things. First, it untangles the stack — what AgentCore, St
 
 ---
 
-## Part 1 — Untangling the stack
+### Part 1 — Untangling the stack
 
 The single most common confusion in this space is comparing things that live at different layers. People put "Copilot Studio" next to "Bedrock" and try to decide between them, which is like choosing between a steering wheel and an engine. They are not alternatives; they are different parts of the same car.
 
@@ -45,7 +45,7 @@ There are four distinct layers, and almost every vendor has a product (or a gap)
 
 That last point resolves the most common headline confusion. Copilot Studio gets compared to Bedrock and AgentCore, but it is neither. It is a *build surface* — the low-code front door. Its real peer is the AgentCore CLI, not AgentCore itself. Microsoft simply leads with its build surface as the public face of its stack, while AWS leads with its runtime — so the two brands that get compared in headlines actually sit a layer apart.
 
-### The consolidated map
+#### The consolidated map
 
 | Ecosystem | Authoring SDK / Framework | Runtime / Operating Platform | Dev Tool / Build Surface | Inference Layer | Model families on that inference layer |
 |---|---|---|---|---|---|
@@ -63,7 +63,7 @@ That last point resolves the most common headline confusion. Copilot Studio gets
 > - *Scope: this table covers **general-purpose stacks** you'd choose between to build an arbitrary application. Platform-bound vertical agents (Salesforce Agentforce, ServiceNow, Workday, etc.) are out of scope — they build agents inside their own product's data gravity, not stacks you'd pick as a general build target.*
 > - *The layers aren't always as clean as the columns suggest. Most open-source frameworks are self-hosted, but the LangChain ecosystem is the exception — LangChain/LangGraph author the agent, while LangSmith (observability/evals) and LangGraph Platform (managed deployment) also cover the runtime/governance layer.*
 
-### Two findings this map makes visible
+#### Two findings this map makes visible
 
 **1. The inference layer has become a multi-vendor marketplace, so model availability is no longer a lock-in lever.** A year ago, "which models can I get" was a real reason to pick a cloud. No longer. Claude, GPT, Llama, DeepSeek, and Qwen are now reachable through all three hyperscalers. Even the assumption that OpenAI models lived only on Azure is gone — GPT-5.x and Codex went generally available on Bedrock in mid-2026 after the OpenAI–Microsoft exclusivity was dissolved. The consequence: the lock-in decision has moved *up* a layer, from inference to the runtime/governance plane. Choose your cloud on governance and ecosystem fit, and treat model selection as a per-workload dial.
 
@@ -73,7 +73,7 @@ That last point resolves the most common headline confusion. Copilot Studio gets
 
 ---
 
-## Part 2 — What the Runtime / Operating Platform layer is actually *for*
+### Part 2 — What the Runtime / Operating Platform layer is actually *for*
 
 The Runtime/Operating Platform layer delivers five distinct capabilities: isolation, identity brokering, policy enforcement, observability, and managed memory. Most teams treat these as a checklist — line items on an enterprise architecture review or a procurement requirement. That framing misses the point. Each exists because a specific class of real failure happens without it. And of the five, four do the same kind of job while one is fundamentally different: four are *risk controls* that bound what an agent can do — because an LLM agent is a non-deterministic actor that takes real-world actions on behalf of real users — while the fifth, memory, is an *enabling capability* that happens to be provided by the same runtime.
 
@@ -91,7 +91,7 @@ The Runtime/Operating Platform layer delivers five distinct capabilities: isolat
 
 <ul><li><p><strong>Managed memory</strong> is externalized state. The model is stateless; anything the agent should "remember" past its context window has to live outside it. Without it you get amnesia, context-window overflow, and no personalization. Memory is the odd one out on this list — it's an <em>enabling capability</em> that makes a stateful, multi-session agent work, not a control that protects you. It's grouped with the runtime services because the platform provides it alongside them, but it belongs in a different category: the other four bound what the agent can <em>do</em>, while memory expands what it can <em>be</em>. (And memory is itself something you govern — it can leak across sessions, retain sensitive data, or be poisoned — so it sits partly <em>under</em> the other four, not beside them.)</p></li></ul>
 
-### The responsibility most teams miss
+#### The responsibility most teams miss
 
 Here is the trap. The frameworks make it *easy* to hand a model real tools and autonomy. But the controls that make that safe are largely *opt-in* — the unenforced path is the documented, frictionless, quickstart path, and the enforced path is an assembled-yourself afterthought.
 
@@ -101,18 +101,18 @@ So the practical guidance for any team adopting this stuff: **assume the safe de
 
 ---
 
-## Part 3 — The harder question: *should* a model be acting at all?
+### Part 3 — The harder question: *should* a model be acting at all?
 
 Everything above is about *how* to build and govern an agent. The more important question is whether to give it autonomy in the first place — and here a little history is clarifying.
 
-### Two axes, not one
+#### Two axes, not one
 
 "AI" spans a 2×2, not a binary:
 
 - **Output breadth:** a number in [0,1] (a fraud score) versus unbounded output (natural language, or — in agentic use — *actions*).
 - **Autonomy:** the model *informs* a decision a human owns, versus the model *acts* and *drives a loop* itself.
 
-<img src="/img/2026-06-07-image3.png" alt="The two axes of AI risk: a 2×2 of autonomy (informs vs. acts) against output breadth (narrow vs. broad). Bounded predictive models like XGBoost sit in the safe informs-narrow corner; agentic LLMs sit in the acts-broad danger corner alongside RL agents and recommender loops." style="display: block; max-width: 100%; height: auto; margin: 20px 0;">
+<img src="/img/2026-07-18-image3.png" alt="The two axes of AI risk: a 2×2 of autonomy (informs vs. acts) against output breadth (narrow vs. broad). Bounded predictive models like XGBoost sit in the safe informs-narrow corner; agentic LLMs sit in the acts-broad danger corner alongside RL agents and recommender loops." style="display: block; max-width: 100%; height: auto; margin: 20px 0;">
 
 |  | Narrow output | Broad / unbounded output |
 |---|---|---|
@@ -123,13 +123,13 @@ The "acts-broad" cell is where the heavyweight control plane is needed — and *
 
 So the popular story that "autonomous AI is new and we have no precedent" is wrong. We have a decade of precedent. What is genuinely new is that LLMs made the dangerous quadrant *cheap and easy to enter* — a few lines of SDK code, no RL expertise required — and added new attack surfaces (hallucination, prompt injection) that controlled RL environments largely didn't face.
 
-### The principle the history actually teaches
+#### The principle the history actually teaches
 
 Look at *where* autonomous AI got deployed versus where it was deliberately withheld. Ad tech, recommenders, pricing, and routing deployed it freely. Healthcare treatment policies and most industrial control were researched extensively but *kept human-gated.*
 
 The dividing line was never capability. It was **reversibility and cost-per-action.** Cheap, reversible, high-volume actions — where a bad action is survivable and learnable-from — got autonomy with light controls. Expensive, irreversible actions — where a single bad action is catastrophic — either cleared an overwhelming control bar or stayed human-in-the-loop. A decade of deployment is essentially a natural experiment confirming that principle.
 
-### So what changed with LLMs — really?
+#### So what changed with LLMs — really?
 
 Here is the uncomfortable part. On the dimension that actually gated RL deployment — *can I bound this thing's behavior well enough to trust it with irreversible consequences* — **almost nothing has improved, and arguably it got harder.** LLMs are less inspectable than a defined RL policy, carry new failure modes RL didn't, and remain formally unverifiable.
 
@@ -137,7 +137,7 @@ What changed is **generality, accessibility, and broader competence per unit of 
 
 And there is a genuinely new calibration hazard: RL agents were *honestly* opaque — nobody mistook a Q-function for a colleague. An LLM's articulate, fluent rationalization *looks* like trustworthy judgment and isn't. Fluency is not reliability, but humans are wired to read it that way.
 
-### The decision rule
+#### The decision rule
 
 This leads to a clean rule for deploying agentic systems, and it is the one to take into any architecture review:
 
@@ -152,7 +152,7 @@ So when someone proposes an LLM agent for a consequential, irreversible role, th
 
 ---
 
-## What to take away
+### What to take away
 
 1. **Know your layer.** Inference, authoring framework, runtime/operating platform, build surface. Most "X vs Y" debates evaporate once you place each product in its layer.
 2. **Model choice is no longer the lock-in decision.** It moved up to the governance plane. Pick the cloud on ecosystem and governance fit.
