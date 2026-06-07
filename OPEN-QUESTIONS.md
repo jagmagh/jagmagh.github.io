@@ -36,7 +36,8 @@ Things deferred, unfinished, or worth revisiting. Address these in future sessio
 - [ ] **Local dev environment**: Ruby not installed, Docker Desktop not installed. Install one of these to enable local preview before pushing. RubyInstaller (Ruby+Devkit 3.2.x x64) from rubyinstaller.org is the recommended path.
 - [x] **Contact form (Formspree)**: wired up — `js/contact_me_static.js` now POSTs to `https://formspree.io/f/xjgdyrwg` with AJAX. Test after deploying to confirm emails arrive.
 - [x] **Floating label focus colour on Contact section**: fixed — `section.success .floating-label-form-group-with-focus label { color: #fff }` overrides the teal-on-teal issue.
-- [ ] **Google/Bing verification**: `_config.yml` has empty `google_verify` and `bing_verify` fields. Fill if SEO verification is needed.
+- [x] **Google Search Console**: verified and sitemap submitted. Fixed `url:` to `https://www.jagmagh.com` (missing protocol was breaking sitemap URLs) and added `jekyll-sitemap` plugin.
+- [x] **Bing Webmaster Tools**: verified and sitemap submitted.
 - [x] **Travis CI**: `.travis.yml` deleted — redundant since GitHub Pages auto-builds on every push.
 
 ---
