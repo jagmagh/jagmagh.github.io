@@ -26,6 +26,8 @@ git add STATE.md OPEN-QUESTIONS.md DECISIONS.md
 
 Message: `Add SA operating model post; standardise blog heading sizes and image naming; add favicon to navbar; compress hero images`
 
+> **Note (post wrap-up fix)**: SA post table header background moved from `<tr>` to each `<th>` directly — `border-collapse: collapse` prevents `<tr>` background from painting on cells, causing white-on-white headers.
+
 ---
 
 ## Deliverable: Solution Architect Role Definition (v2)
