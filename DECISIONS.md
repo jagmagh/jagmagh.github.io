@@ -34,7 +34,7 @@ Key decisions made and the rationale behind them. Read before making architectur
 | Current engagement: discovery assessment for a **Singapore authority responsible for improving population fitness** | Client not named by name — use this descriptor. |
 | FMEA removed from Solving Complex Problems | Incorrect attribution — user confirmed. |
 | LinkedIn post used as **styled intro callout** in blog post | Punchier than the article opening; also used as the post `excerpt` for the blog listing. |
-| `post.excerpt` set explicitly in front matter | Jekyll's auto-generated excerpt was causing title duplication on the blog listing page. Explicit front matter excerpt gives full control. |
+| `post.excerpt` set explicitly in front matter — **required for every new post** | Jekyll's auto-generated excerpt picks up raw HTML from the `post-intro` div rather than readable text. Always add `excerpt: "..."` to front matter before publishing. |
 
 ---
 

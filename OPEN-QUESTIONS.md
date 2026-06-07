@@ -27,7 +27,7 @@ Things deferred, unfinished, or worth revisiting. Address these in future sessio
 
 - [x] **Image 2** (`img/2026-07-18-image2.jpg`): decided not to use — closed.
 - [x] **More blog posts**: two posts live — Agentic AI (2026-07-18) and SA Operating Model (2026-07-10). Continue publishing.
-- [ ] **Blog post excerpt for home preview**: currently set manually in front matter. Establish a habit: always set `excerpt:` in front matter for every new post.
+- [x] **Blog post excerpt for home preview**: rule documented in DECISIONS.md — always set `excerpt:` in front matter for every new post.
 
 ---
 
@@ -53,4 +53,4 @@ Things deferred, unfinished, or worth revisiting. Address these in future sessio
 - [x] **Stack Overflow link**: verified correct and active.
 - [x] **LinkedIn link**: verified correct.
 - [x] **Credits modal** (`_includes/creditsModal.html`): reviewed — attributions correct. Blog post hero image is Gemini-generated, no attribution needed.
-- [ ] **RSS feed** (`feed.xml`): Jekyll generates this automatically. Consider whether to promote it.
+- [x] **RSS feed** (`feed.xml`): auto-discovery `<link>` already in `head.html`; RSS icon added to footer social row via `_config.yml`.

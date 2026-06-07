@@ -24,7 +24,7 @@ git add _includes/nav.html
 git add STATE.md OPEN-QUESTIONS.md DECISIONS.md
 ```
 
-Message: `Add SA operating model post; standardise blog heading sizes and image naming; add favicon to navbar; compress hero images`
+Message: `Add SA operating model post; standardise blog heading sizes and image naming; add favicon to navbar; compress hero images; add RSS feed to footer`
 
 > **Note (post wrap-up fix)**: SA post table header background moved from `<tr>` to each `<th>` directly — `border-collapse: collapse` prevents `<tr>` background from painting on cells, causing white-on-white headers.
 
