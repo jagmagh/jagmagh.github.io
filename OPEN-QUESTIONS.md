@@ -18,8 +18,8 @@ Things deferred, unfinished, or worth revisiting. Address these in future sessio
 
 - [ ] **About section**: further refinement deferred — user said "we can keep tweaking the personal sections further...but lets do that for another time"
 - [x] **Profile photo** (`img/profile.png`): confirmed as actual photo — no change needed.
-- [ ] **Header tagline**: review whether the three skill descriptors still feel right after seeing the site live for a while.
-- [ ] **Portfolio card images**: the three icons (033-strategy.png, 025-design-1.png, 012-idea.png) are generic. Consider replacing with more relevant visuals.
+- [x] **Header tagline**: "Enterprise Architecture · Digital Transformation · AI-Augmented Architecture" — keeping as-is. Revisit after seeing traffic patterns.
+- [x] **Portfolio card images**: keeping generic icons — clean and proportionate at current size. No change needed.
 
 ---
 
@@ -35,7 +35,7 @@ Things deferred, unfinished, or worth revisiting. Address these in future sessio
 
 - [ ] **Local dev environment**: Ruby not installed, Docker Desktop not installed. Install one of these to enable local preview before pushing. RubyInstaller (Ruby+Devkit 3.2.x x64) from rubyinstaller.org is the recommended path.
 - [x] **Contact form (Formspree)**: wired up — `js/contact_me_static.js` now POSTs to `https://formspree.io/f/xjgdyrwg` with AJAX. Test after deploying to confirm emails arrive.
-- [ ] **Floating label focus colour on Contact section**: when a user clicks into a form field, the label turns teal (matching the background — invisible). The CSS rule `floating-label-form-group-with-focus label { color: primary }` needs to be overridden to white for the contact section.
+- [x] **Floating label focus colour on Contact section**: fixed — `section.success .floating-label-form-group-with-focus label { color: #fff }` overrides the teal-on-teal issue.
 - [ ] **Google/Bing verification**: `_config.yml` has empty `google_verify` and `bing_verify` fields. Fill if SEO verification is needed.
 - [x] **Travis CI**: `.travis.yml` deleted — redundant since GitHub Pages auto-builds on every push.
 
@@ -51,5 +51,5 @@ Things deferred, unfinished, or worth revisiting. Address these in future sessio
 
 - [x] **Stack Overflow link**: verified correct and active.
 - [x] **LinkedIn link**: verified correct.
-- [ ] **Credits modal** (`_includes/creditsModal.html`): not reviewed. Check its content is appropriate.
+- [x] **Credits modal** (`_includes/creditsModal.html`): reviewed — attributions correct. Blog post hero image is Gemini-generated, no attribution needed.
 - [ ] **RSS feed** (`feed.xml`): Jekyll generates this automatically. Consider whether to promote it.

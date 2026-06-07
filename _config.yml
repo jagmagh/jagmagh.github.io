@@ -60,6 +60,8 @@ collections:
 markdown: kramdown
 permalink: pretty
 future: true
+plugins:
+  - jekyll-sitemap
 exclude:
   - STATE.md
   - DECISIONS.md
