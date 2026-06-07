@@ -4,7 +4,7 @@
 **Repo**: `D:\www.jagmagh.com\jagmagh.github.io` → GitHub: `jagmagh/jagmagh.github.io`  
 **Hosting**: GitHub Pages (custom domain via CNAME)  
 **Stack**: Jekyll 3.8.5 · Freelancer Bootstrap Theme · Formspree (contact form)  
-**Last session**: 2026-06-07 (session 2)  
+**Last session**: 2026-06-07 (session 3–4)  
 **HTTPS status**: DNS correct (CNAME → jagmagh.github.io ✓), certificate being provisioned — click "Enforce HTTPS" in GitHub Settings → Pages once available
 
 ---
@@ -58,6 +58,15 @@ Home (/)
 /blog — full post listing
 /[year]/[month]/[day]/[slug]/ — individual post pages
 ```
+
+### Published blog posts
+
+| Date | Slug | Title |
+|---|---|---|
+| 2026-07-18 | `2026-07-18-agentic-ai-the-stack-and-the-harder-question` | Agentic AI: Model Autonomy, and the Harder Question |
+| 2026-07-10 | `2026-07-10-solution-architect-operating-model-ai-native-world` | The Architect's Operating Model in an AI-Native World |
+
+Note: both posts are future-dated relative to time of writing (2026-06-07). `future: true` in `_config.yml` ensures they render locally; GitHub Pages will hold them until the stated date unless `future: true` is also in the live config (it is).
 
 ---
 

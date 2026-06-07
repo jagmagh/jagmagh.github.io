@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Agentic AI: Model Autonomy, and the Harder Question"
-date: 2026-06-07
+date: 2026-07-18
 excerpt: "Everyone's asking whether AI agents are good enough to put in production. Wrong question. The gating variable was never capability. It was reversibility — and LLMs are making it dangerously easy to forget."
 ---
 
