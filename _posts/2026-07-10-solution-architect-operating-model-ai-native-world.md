@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Architect's Operating Model in an AI-Native World"
+title: "The Solution Architect's Operating Model in an AI-Native World"
 date: 2026-07-10
 excerpt: "AI is a strong generator and a weak discriminator. It produces plausible options confidently but carries no accountability for whether they survive contact with reality. This is the operating model built around that fact."
 ---
@@ -10,13 +10,17 @@ excerpt: "AI is a strong generator and a weak discriminator. It produces plausib
 <p>What AI has not commoditised is judgment — deciding what to build, what not to build, and what will fail before it fails. That is where architect value has gravitated, and this is the operating model built around it.</p>
 </div>
 
-## 1. Purpose
+<br>
+
+### 1. Purpose
 
 This document defines the architect's role in an environment where generative AI has materially changed how technical work is produced. Its purpose is to establish where the architect's value now concentrates, how that value is delivered to clients and project teams, and what the architect must do internally to keep that value credible and current.
 
 The core premise is that AI has compressed the cost and time of construction and the recall of technical breadth. As a result, the architect's value shifts from knowing and building toward judging, directing, and being accountable for technical decisions. The role is structured accordingly: the client-facing work is defined in the sections that follow, grounded in an internal practice that keeps it credible.
 
-## 2. Operating Premise
+<br>
+
+### 2. Operating Premise
 
 Three shifts in the technical landscape define this role:
 
@@ -26,7 +30,9 @@ Three shifts in the technical landscape define this role:
 
 The role is therefore designed so that judgment is the primary offering, and construction is the internal discipline that keeps it grounded.
 
-## 3. What Judgment Is
+<br>
+
+### 3. What Judgment Is
 
 Judgment is the term used throughout this document to describe what the architect offers where AI is structurally weakest. It is worth naming concretely, because it is easy to invoke and hard to specify.
 
@@ -42,30 +48,113 @@ In practice, judgment means:
 
 None of these are computable from a prompt. They require accumulated exposure to how engagements actually fail, not just what they look like when they are going well.
 
-## 4. How the Role Has Changed
+<br>
+
+### 4. How the Role Has Changed
 
 The table below compares the architect's activities before and after the widespread adoption of AI, and states why each has shifted. The pattern is consistent: where AI now produces the output or supplies the recall, the activity no longer requires an architect and can be delivered at developer level; where judgment, context, and accountability are required, the activity remains architect-level work and in several cases becomes more valuable.
 
-| Activity | Lifecycle Stage | Role Before AI | Role Now | Why It Shifted | Mapped Offering |
-|---|---|---|---|---|---|
-| Technical breadth — knowing the landscape | Cross-cutting | Encyclopedic recall of technologies, products, and patterns was a core differentiator. | AI supplies breadth on demand; the architect curates and selects rather than recalls. | Recall is now instant and free, so it no longer justifies an architect. | Not sold — developer / AI |
-| Building and construction | Build | Significant hands-on construction was central and billable. | Construction is delegated to AI; building is retained internally only to stay grounded. | AI builds faster and cheaper. | Not sold — developer / AI (retained internally per §6) |
-| Producing solutions and proposals | Pre-sales | Hand-crafting solution outlines, proposals, estimates, and demos. | Directing and validating AI-produced artifacts; owning qualification and the client relationship. | AI produces the artifacts quickly; value moves to judgment, feasibility, and trust. | Sold as §5.1 |
-| Design patterns and first-draft deliverables | Design | Producing reference designs, matrices, and first-draft documents from expertise. | AI generates the first draft; the architect judges, corrects, and adapts to context. | Generation is commoditised; discrimination and fit-to-context are not. | Feeds §5.1 & §5.5 |
-| Reviewing and assuring the build | Build | Reviewing deliverables produced by human teams. | First-pass review by AI and developers; the architect owns the trade-offs and risk the review surfaces. | Detection is commoditised, but adjudicating conflicting goals and accepting risk is not. | Sold as §5.5 |
-| Deciding what to build vs. what not to build | Pre-sales / Design | An implicit part of architect judgment, not always named as a distinct offering. | An explicit, high-value offering — the scarce discriminator over confident AI output. | AI generates options confidently but cannot decide what is worth doing; this rises in value. | Sold as §5.2 |
-| Platform, vendor, and transformation decisions | Design / Plan | Assessments and selections grounded in experience and client context. | Largely unchanged; AI assists analysis but the decision and accountability remain human. | Requires context and accountability AI cannot hold. | Sold as §5.3 |
-| Client relationship and accountability | Cross-cutting | The trusted relationship and the willingness to stake credibility on a recommendation. | Unchanged and more pivotal as AI-polished competitors look increasingly alike. | Trust, presence, and accountability are inherently human. | Underpins §5.1 & §5.4 |
+<div style="overflow-x: auto; margin: 1.5em 0;">
 
-## 5. Where the Architect's Value Has Gravitated
+<div style="display: flex; flex-wrap: wrap; gap: 0.5em; margin-bottom: 0.8em; font-size: 0.8em;">
+  <span style="background: #FCE4E4; padding: 0.25em 0.75em; border-radius: 3px; border: 1px solid #e0c0c0;">No longer needs an architect — can be delivered at developer / AI level</span>
+  <span style="background: #FFF3D6; padding: 0.25em 0.75em; border-radius: 3px; border: 1px solid #e0d0a0;">Production drops to developer level; architect directs and validates</span>
+  <span style="background: #E2F0E2; padding: 0.25em 0.75em; border-radius: 3px; border: 1px solid #b0d0b0;">Still the architect's — unaffected or more valuable</span>
+</div>
+
+<table style="width: 100%; border-collapse: collapse; font-size: 0.82em;">
+<thead>
+<tr style="background: #1F3864; color: white;">
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 150px;">Activity</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 90px;">Lifecycle Stage</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 160px;">Role Before AI</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 160px;">Role Now</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 150px;">Why It Shifted</th>
+  <th style="padding: 0.5em 0.6em; text-align: left; min-width: 130px;">Mapped Offering</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #FCE4E4;">
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #f0d0d0;"><strong>Technical breadth — knowing the landscape</strong></td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #f0d0d0; color: #595959;">Cross-cutting</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #f0d0d0;">Encyclopedic recall of technologies, products, and patterns was a core differentiator.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #f0d0d0;">AI supplies breadth on demand; the architect curates and selects rather than recalls.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #f0d0d0;">Recall is now instant and free, so it no longer justifies an architect.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #f0d0d0;"><strong>Not sold — developer / AI</strong></td>
+</tr>
+<tr style="background: #FCE4E4;">
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #f0d0d0;"><strong>Building and construction</strong></td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #f0d0d0; color: #595959;">Build</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #f0d0d0;">Significant hands-on construction was central and billable.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #f0d0d0;">Construction is delegated to AI; building is retained internally only to stay grounded.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #f0d0d0;">AI builds faster and cheaper.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #f0d0d0;"><strong>Not sold — developer / AI (retained internally per §6)</strong></td>
+</tr>
+<tr style="background: #FFF3D6;">
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0;"><strong>Producing solutions and proposals</strong></td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0; color: #595959;">Pre-sales</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0;">Hand-crafting solution outlines, proposals, estimates, and demos.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0;">Directing and validating AI-produced artifacts; owning qualification and the client relationship.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0;">AI produces the artifacts quickly; value moves to judgment, feasibility, and trust.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0;"><strong>Sold as §5.1</strong></td>
+</tr>
+<tr style="background: #FFF3D6;">
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0;"><strong>Design patterns and first-draft deliverables</strong></td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0; color: #595959;">Design</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0;">Producing reference designs, matrices, and first-draft documents from expertise.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0;">AI generates the first draft; the architect judges, corrects, and adapts to context.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0;">Generation is commoditised; discrimination and fit-to-context are not.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0;"><strong>Feeds §5.1 & §5.5</strong></td>
+</tr>
+<tr style="background: #FFF3D6;">
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0;"><strong>Reviewing and assuring the build</strong></td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0; color: #595959;">Build</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0;">Reviewing deliverables produced by human teams.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0;">First-pass review by AI and developers; the architect owns the trade-offs and risk the review surfaces.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0;">Detection is commoditised, but adjudicating conflicting goals and accepting risk is not.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #e8ddb0;"><strong>Sold as §5.5</strong></td>
+</tr>
+<tr style="background: #E2F0E2;">
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #c0dcc0;"><strong>Deciding what to build vs. what not to build</strong></td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #c0dcc0; color: #595959;">Pre-sales / Design</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #c0dcc0;">An implicit part of architect judgment, not always named as a distinct offering.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #c0dcc0;">An explicit, high-value offering — the scarce discriminator over confident AI output.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #c0dcc0;">AI generates options confidently but cannot decide what is worth doing; this rises in value.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #c0dcc0;"><strong>Sold as §5.2</strong></td>
+</tr>
+<tr style="background: #E2F0E2;">
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #c0dcc0;"><strong>Platform, vendor, and transformation decisions</strong></td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #c0dcc0; color: #595959;">Design / Plan</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #c0dcc0;">Assessments and selections grounded in experience and client context.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #c0dcc0;">Largely unchanged; AI assists analysis but the decision and accountability remain human.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #c0dcc0;">Requires context and accountability AI cannot hold.</td>
+  <td style="padding: 0.5em 0.6em; border-bottom: 1px solid #c0dcc0;"><strong>Sold as §5.3</strong></td>
+</tr>
+<tr style="background: #E2F0E2;">
+  <td style="padding: 0.5em 0.6em;"><strong>Client relationship and accountability</strong></td>
+  <td style="padding: 0.5em 0.6em; color: #595959;">Cross-cutting</td>
+  <td style="padding: 0.5em 0.6em;">The trusted relationship and the willingness to stake credibility on a recommendation.</td>
+  <td style="padding: 0.5em 0.6em;">Unchanged and more pivotal as AI-polished competitors look increasingly alike.</td>
+  <td style="padding: 0.5em 0.6em;">Trust, presence, and accountability are inherently human.</td>
+  <td style="padding: 0.5em 0.6em;"><strong>Underpins §5.1 & §5.4</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<br>
+
+### 5. Where the Architect's Value Has Gravitated
 
 Each offering in this section is an expression of senior technical judgment applied where decisions carry the most cost and where AI is structurally weakest. The offerings divide into two categories by how they are engaged: independent sellable engagements that stand on their own, and roles performed within a larger implementation effort. Most offerings have a primary category, with a note on where they also apply to the other.
 
-### 5A. Independent Sellable Engagements
+<br>
+
+#### 5A. Independent Sellable Engagements
 
 These can be scoped, sold, and delivered as engagements in their own right, independent of any single implementation project.
 
-#### 5.1 Pre-Sales Solutioning
+##### 5.1 Pre-Sales Solutioning
 
 What the client gets is an architect who shapes and vouches for the proposed solution — not just produces it. In a market where AI-generated proposals are uniformly polished, the differentiator is the judgment behind them: whether the solution is real, whether the estimate is honest, and whether the people proposing it have the standing to deliver.
 
@@ -86,7 +175,7 @@ What the client gets is an architect who shapes and vouches for the proposed sol
 
 ---
 
-#### 5.2 Decision Guidance — What to Build vs. What Not to Build
+##### 5.2 Decision Guidance — What to Build vs. What Not to Build
 
 The highest-value protection a client can buy: an architect who will tell them not to build something before they commit the budget to build it wrong. Incorrect decisions at this layer are the most expensive, and AI — which generates options confidently but carries no accountability for their consequences — is least reliable precisely here.
 
@@ -107,7 +196,7 @@ The highest-value protection a client can buy: an architect who will tell them n
 
 ---
 
-#### 5.3 Platform, Vendor, and Transformation Decisions
+##### 5.3 Platform, Vendor, and Transformation Decisions
 
 What the client gets is a recommendation grounded in their actual situation — not a feature matrix or a vendor pitch. Platform and transformation decisions require contextual and relational knowledge that AI cannot access: the organisation's operating constraints, its political dynamics, what its teams can realistically absorb, and what prior decisions have foreclosed. These remain durable architect responsibilities regardless of how capable tooling becomes.
 
@@ -128,7 +217,7 @@ What the client gets is a recommendation grounded in their actual situation — 
 
 ---
 
-#### 5.4 Trusted Technology Advisory
+##### 5.4 Trusted Technology Advisory
 
 What the client gets is an independent, credible voice that will tell leadership what it does not want to hear — including recommending against a technology, a vendor, or an initiative when the honest assessment is that it is the wrong choice. The value is not technology-specific; it is the combination of judgment, context, and willingness to stake reputation on a recommendation that runs contrary to the prevailing preference in the room.
 
@@ -151,11 +240,11 @@ What the client gets is an independent, credible voice that will tell leadership
 
 ---
 
-### 5B. Roles Within a Larger Implementation
+#### 5B. Roles Within a Larger Implementation
 
 This offering exists only when a build is underway. It is engaged as a defined role inside an implementation project rather than sold as a standalone engagement.
 
-#### 5.5 Architectural Decisions and Risk Ownership during the Build
+##### 5.5 Architectural Decisions and Risk Ownership during the Build
 
 First-pass review and assessment are increasingly done by developers and AI. The architect's value in delivery is not running those checks but owning the trade-off decisions they surface and being accountable for the risk that ships.
 
@@ -186,30 +275,38 @@ The role is heaviest at the start and at key decision gates, not uniformly throu
 
 ---
 
-## 6. Supporting Discipline: Building for Knowledge
+<br>
+
+### 6. Supporting Discipline: Building for Knowledge
 
 The advisory work described in the preceding sections is only as credible as the judgment behind it. That judgment is kept honest by a deliberate, selective building practice — one that is not sold to clients and is not designed to compete on construction speed or volume, but is maintained because advisory credibility that is not tested against technical reality eventually drifts from it.
 
-### 6.1 Activities
+#### 6.1 Activities
 
 - Building working prototypes and proofs-of-concept in the AI-native stack — agentic workflows, retrieval-augmented patterns, evaluation strategies, and model orchestration — to establish first-hand what performs versus what only demonstrates well.
 - Maintaining sufficient currency with cloud AI services (e.g. AWS Bedrock, Azure AI Foundry) and the underlying data platform plumbing to distinguish substance from vendor or team hand-waving.
 - Building selectively before advising, so that recommendations on a pattern are informed by direct exposure to its failure modes and sharp edges.
 
-### 6.2 Operating Principles
+#### 6.2 Operating Principles
 
 - This work is judged by whether it keeps the architect close to ground truth, not by whether it is billable.
 - Specific tooling knowledge has a short half-life; the objective is grounding and the ability to detect what is real, not exhaustive mastery of current tools.
 - If hands-on practice lapses, advisory judgment silently drifts from reality. Maintaining this practice is therefore a non-negotiable input to the credibility of the advisory work.
 
-## 7. The Governing Filter
+<br>
+
+### 7. The Governing Filter
 
 Because both construction and advisory work can be performed competently, the deciding question for any engagement is not which type of work it is, but whether it compounds:
 
-> Does performing this work well make the architect harder to replace and more trusted next year — or does it simply produce one more competent output that anyone with current tooling could have produced?
+<div style="border-left: 5px solid #2E86AB; background: #EEF6FB; padding: 1.2em 1.5em; margin: 1.5em 0; font-style: italic; font-size: 1.05em; color: #1F3864; border-radius: 0 4px 4px 0; line-height: 1.6;">
+Does performing this work well make the architect harder to replace and more trusted next year — or does it simply produce one more competent output that anyone with current tooling could have produced?
+</div>
 
 Internal building passes this filter only when it demonstrably sharpens the advisory and assurance work. External engagements are prioritised where they make the architect harder to replace and more trusted, rather than where they merely produce volume.
 
-## 8. Summary
+<br>
+
+### 8. Summary
 
 The architect in an AI-native world places judgment, decision guidance, and accountability on the invoice, while retaining a deliberate, selective building practice as the credibility floor that keeps that judgment honest. Construction is no longer the headline offering; it is the root system beneath it. The role is defined not by a choice between building and advising, but by an operating model in which directed, accountable judgment is the value, and hands-on practice is the discipline that keeps the value real.
